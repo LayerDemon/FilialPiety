@@ -42,6 +42,7 @@
 #define THEMECOLOR_LIGHTBACK  _COLOR(244,244,244,1);
 #define THEMECOLOR_BG           _COLOR(245, 245, 245, 1)    //背景色
 #define THEMECOLOR_BUT          _COLOR(255, 215, 57, 1)            //button偏黑色
+#define THEMECOLOR_LINE         _COLOR(239,240,240,1)             //分割线
 
 #define NOW_SCR_H [UIScreen mainScreen].bounds.size.height
 #define NOW_SCR_W [UIScreen mainScreen].bounds.size.width

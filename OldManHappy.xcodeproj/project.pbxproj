@@ -33,6 +33,7 @@
 		2DACB9CD1DCF712200242D75 /* 日常用品详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C91DCF712200242D75 /* 日常用品详情.PNG */; };
 		2DACB9CE1DCF712200242D75 /* 有机蔬菜详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9CA1DCF712200242D75 /* 有机蔬菜详情.PNG */; };
 		2DACB9CF1DCF712200242D75 /* 营养套餐详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9CB1DCF712200242D75 /* 营养套餐详情.PNG */; };
+		2DB4C51B1DCF84EE00DFEF18 /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DB4C51A1DCF84EE00DFEF18 /* 头像.jpg */; };
 		2DCF19E51DCF142400A4F243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF19E41DCF142400A4F243 /* main.m */; };
 		2DCF19E81DCF142400A4F243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF19E71DCF142400A4F243 /* AppDelegate.m */; };
 		2DCF19EB1DCF142400A4F243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF19EA1DCF142400A4F243 /* ViewController.m */; };
@@ -134,6 +135,7 @@
 		2DACB9C91DCF712200242D75 /* 日常用品详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日常用品详情.PNG"; sourceTree = "<group>"; };
 		2DACB9CA1DCF712200242D75 /* 有机蔬菜详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜详情.PNG"; sourceTree = "<group>"; };
 		2DACB9CB1DCF712200242D75 /* 营养套餐详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营养套餐详情.PNG"; sourceTree = "<group>"; };
+		2DB4C51A1DCF84EE00DFEF18 /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
 		2DCF19E01DCF142400A4F243 /* OldManHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OldManHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCF19E41DCF142400A4F243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DCF19E61DCF142400A4F243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -347,6 +349,14 @@
 			path = "悦生活";
 			sourceTree = "<group>";
 		};
+		2DB4C5191DCF84E700DFEF18 /* 我的主页 */ = {
+			isa = PBXGroup;
+			children = (
+				2DB4C51A1DCF84EE00DFEF18 /* 头像.jpg */,
+			);
+			path = "我的主页";
+			sourceTree = "<group>";
+		};
 		2DCF19D71DCF142300A4F243 = {
 			isa = PBXGroup;
 			children = (
@@ -421,6 +431,7 @@
 		2DD45AC81DCF17F0001B6706 /* SourceImages */ = {
 			isa = PBXGroup;
 			children = (
+				2DB4C5191DCF84E700DFEF18 /* 我的主页 */,
 				2DD45B161DCF2EE3001B6706 /* 悦生活 */,
 				2DD45AC91DCF1814001B6706 /* tabBar */,
 			);
@@ -743,6 +754,7 @@
 				2D3D1DA61DCF4EE600747861 /* 健身器材2.png in Resources */,
 				2DCF19EE1DCF142400A4F243 /* Main.storyboard in Resources */,
 				2DD45AD11DCF1814001B6706 /* 活动@3x.png in Resources */,
+				2DB4C51B1DCF84EE00DFEF18 /* 头像.jpg in Resources */,
 				2DD45B1E1DCF2EE3001B6706 /* 家电厨具.png in Resources */,
 				2DACB9C31DCF6ADA00242D75 /* 门店理疗详情.PNG in Resources */,
 				2DD45B321DCF357F001B6706 /* 特殊护理.png in Resources */,

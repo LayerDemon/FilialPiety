@@ -19,15 +19,6 @@
 
 
 /**
- 从会话数组中，得到手机号数组
-
- @param conversationsArray 会话数组
-
- @return 手机号数组
- */
-+ (NSArray *)getTellPhoneArrayWithConversationsArray:(NSArray *)conversationsArray;
-
-/**
  将数组持久化，存入本地
 
  @param array    需要存入的数组
