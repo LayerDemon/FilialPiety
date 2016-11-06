@@ -1,0 +1,1059 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2FC46F1DCF67B5001BCAF3 /* 代理跑腿详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D2FC46D1DCF67B5001BCAF3 /* 代理跑腿详情.PNG */; };
+		2D2FC4701DCF67B5001BCAF3 /* 代理购物详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D2FC46E1DCF67B5001BCAF3 /* 代理购物详情.PNG */; };
+		2D3D1D971DCF48F300747861 /* HappyLifeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D1D961DCF48F300747861 /* HappyLifeListViewController.m */; };
+		2D3D1D9A1DCF4A6800747861 /* HappyLifeListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D1D991DCF4A6800747861 /* HappyLifeListTableViewCell.m */; };
+		2D3D1DA41DCF4EE600747861 /* 健身器材1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1D9C1DCF4EE600747861 /* 健身器材1.png */; };
+		2D3D1DA51DCF4EE600747861 /* 健身器材1详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1D9D1DCF4EE600747861 /* 健身器材1详情.PNG */; };
+		2D3D1DA61DCF4EE600747861 /* 健身器材2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1D9E1DCF4EE600747861 /* 健身器材2.png */; };
+		2D3D1DA71DCF4EE600747861 /* 健身器材2详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1D9F1DCF4EE600747861 /* 健身器材2详情.PNG */; };
+		2D3D1DA81DCF4EE600747861 /* 健身器材3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DA01DCF4EE600747861 /* 健身器材3.png */; };
+		2D3D1DA91DCF4EE600747861 /* 健身器材3详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DA11DCF4EE600747861 /* 健身器材3详情.PNG */; };
+		2D3D1DAA1DCF4EE600747861 /* 健身器材4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DA21DCF4EE600747861 /* 健身器材4.png */; };
+		2D3D1DAB1DCF4EE600747861 /* 健身器材4详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DA31DCF4EE600747861 /* 健身器材4详情.PNG */; };
+		2D3D1DAF1DCF4F1500747861 /* HappyListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D1DAE1DCF4F1500747861 /* HappyListDetailViewController.m */; };
+		2D3D1DB21DCF564500747861 /* 清洁服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB11DCF564500747861 /* 清洁服务详情.PNG */; };
+		2D3D1DB61DCF56B400747861 /* CleanDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB51DCF56B400747861 /* CleanDetailViewController.m */; };
+		2D3D1DBA1DCF5C1A00747861 /* 陪伴服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB71DCF5C1A00747861 /* 陪伴服务详情.PNG */; };
+		2D3D1DBB1DCF5C1A00747861 /* 保养服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB81DCF5C1A00747861 /* 保养服务详情.PNG */; };
+		2D3D1DBC1DCF5C1A00747861 /* 维修服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB91DCF5C1A00747861 /* 维修服务详情.PNG */; };
+		2DACB9C31DCF6ADA00242D75 /* 门店理疗详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C01DCF6ADA00242D75 /* 门店理疗详情.PNG */; };
+		2DACB9C41DCF6ADA00242D75 /* 专家咨询详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C11DCF6ADA00242D75 /* 专家咨询详情.PNG */; };
+		2DACB9C51DCF6ADA00242D75 /* 特殊护理详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C21DCF6ADA00242D75 /* 特殊护理详情.PNG */; };
+		2DACB9C71DCF6C8500242D75 /* 历史营养计划详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C61DCF6C8500242D75 /* 历史营养计划详情.PNG */; };
+		2DACB9CC1DCF712200242D75 /* 家电厨具详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C81DCF712200242D75 /* 家电厨具详情.PNG */; };
+		2DACB9CD1DCF712200242D75 /* 日常用品详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C91DCF712200242D75 /* 日常用品详情.PNG */; };
+		2DACB9CE1DCF712200242D75 /* 有机蔬菜详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9CA1DCF712200242D75 /* 有机蔬菜详情.PNG */; };
+		2DACB9CF1DCF712200242D75 /* 营养套餐详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9CB1DCF712200242D75 /* 营养套餐详情.PNG */; };
+		2DCF19E51DCF142400A4F243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF19E41DCF142400A4F243 /* main.m */; };
+		2DCF19E81DCF142400A4F243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF19E71DCF142400A4F243 /* AppDelegate.m */; };
+		2DCF19EB1DCF142400A4F243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF19EA1DCF142400A4F243 /* ViewController.m */; };
+		2DCF19EE1DCF142400A4F243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF19EC1DCF142400A4F243 /* Main.storyboard */; };
+		2DCF19F01DCF142400A4F243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF19EF1DCF142400A4F243 /* Assets.xcassets */; };
+		2DCF19F31DCF142400A4F243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCF19F11DCF142400A4F243 /* LaunchScreen.storyboard */; };
+		2DCF19FE1DCF142400A4F243 /* OldManHappyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF19FD1DCF142400A4F243 /* OldManHappyTests.m */; };
+		2DCF1A091DCF142400A4F243 /* OldManHappyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF1A081DCF142400A4F243 /* OldManHappyUITests.m */; };
+		2DD45ABE1DCF1579001B6706 /* HappyLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45ABD1DCF1579001B6706 /* HappyLifeViewController.m */; };
+		2DD45AC11DCF158C001B6706 /* MySelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AC01DCF158C001B6706 /* MySelfViewController.m */; };
+		2DD45AC41DCF15AB001B6706 /* OldFriendCicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AC31DCF15AB001B6706 /* OldFriendCicleViewController.m */; };
+		2DD45AC71DCF15B7001B6706 /* OldToOldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AC61DCF15B7001B6706 /* OldToOldViewController.m */; };
+		2DD45ACE1DCF1814001B6706 /* 促销@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45ACA1DCF1814001B6706 /* 促销@3x.png */; };
+		2DD45ACF1DCF1814001B6706 /* 商家@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45ACB1DCF1814001B6706 /* 商家@3x.png */; };
+		2DD45AD01DCF1814001B6706 /* 我的@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45ACC1DCF1814001B6706 /* 我的@3x.png */; };
+		2DD45AD11DCF1814001B6706 /* 活动@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45ACD1DCF1814001B6706 /* 活动@3x.png */; };
+		2DD45AED1DCF1949001B6706 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AD51DCF1949001B6706 /* MASCompositeConstraint.m */; };
+		2DD45AEE1DCF1949001B6706 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AD81DCF1949001B6706 /* MASConstraint.m */; };
+		2DD45AEF1DCF1949001B6706 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45ADA1DCF1949001B6706 /* MASConstraintMaker.m */; };
+		2DD45AF01DCF1949001B6706 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45ADC1DCF1949001B6706 /* MASLayoutConstraint.m */; };
+		2DD45AF11DCF1949001B6706 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AE01DCF1949001B6706 /* MASViewAttribute.m */; };
+		2DD45AF21DCF1949001B6706 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AE21DCF1949001B6706 /* MASViewConstraint.m */; };
+		2DD45AF31DCF1949001B6706 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AE41DCF1949001B6706 /* NSArray+MASAdditions.m */; };
+		2DD45AF41DCF1949001B6706 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AE71DCF1949001B6706 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2DD45AF51DCF1949001B6706 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AE91DCF1949001B6706 /* View+MASAdditions.m */; };
+		2DD45AF61DCF1949001B6706 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AEC1DCF1949001B6706 /* ViewController+MASAdditions.m */; };
+		2DD45AFA1DCF219B001B6706 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AF91DCF219B001B6706 /* BaseViewController.m */; };
+		2DD45B0E1DCF2771001B6706 /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45AFD1DCF2771001B6706 /* AppDelegate+Category.m */; };
+		2DD45B0F1DCF2771001B6706 /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45B001DCF2771001B6706 /* NSArray+Category.m */; };
+		2DD45B101DCF2771001B6706 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45B021DCF2771001B6706 /* NSString+Category.m */; };
+		2DD45B111DCF2771001B6706 /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45B051DCF2771001B6706 /* UIButton+Category.m */; };
+		2DD45B121DCF2771001B6706 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45B071DCF2771001B6706 /* UIImage+Category.m */; };
+		2DD45B131DCF2771001B6706 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45B091DCF2771001B6706 /* UILabel+Category.m */; };
+		2DD45B141DCF2771001B6706 /* UITextField+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45B0B1DCF2771001B6706 /* UITextField+Category.m */; };
+		2DD45B151DCF2771001B6706 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD45B0D1DCF2771001B6706 /* UIView+Category.m */; };
+		2DD45B1D1DCF2EE3001B6706 /* 保健器材.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B181DCF2EE3001B6706 /* 保健器材.png */; };
+		2DD45B1E1DCF2EE3001B6706 /* 家电厨具.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B191DCF2EE3001B6706 /* 家电厨具.png */; };
+		2DD45B1F1DCF2EE3001B6706 /* 日常用品.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B1A1DCF2EE3001B6706 /* 日常用品.png */; };
+		2DD45B201DCF2EE3001B6706 /* 有机蔬菜.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B1B1DCF2EE3001B6706 /* 有机蔬菜.png */; };
+		2DD45B211DCF2EE3001B6706 /* 营养套餐.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B1C1DCF2EE3001B6706 /* 营养套餐.png */; };
+		2DD45B231DCF3022001B6706 /* 有机蔬菜.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B221DCF3022001B6706 /* 有机蔬菜.png */; };
+		2DD45B291DCF3478001B6706 /* 保养服务.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B251DCF3478001B6706 /* 保养服务.png */; };
+		2DD45B2A1DCF3478001B6706 /* 清洁服务.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B261DCF3478001B6706 /* 清洁服务.png */; };
+		2DD45B2B1DCF3478001B6706 /* 维修服务.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B271DCF3478001B6706 /* 维修服务.png */; };
+		2DD45B2C1DCF3478001B6706 /* 陪伴服务.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B281DCF3478001B6706 /* 陪伴服务.png */; };
+		2DD45B311DCF357F001B6706 /* 专家咨询.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B2E1DCF357F001B6706 /* 专家咨询.png */; };
+		2DD45B321DCF357F001B6706 /* 特殊护理.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B2F1DCF357F001B6706 /* 特殊护理.png */; };
+		2DD45B331DCF357F001B6706 /* 门店理疗.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B301DCF357F001B6706 /* 门店理疗.png */; };
+		2DD45B391DCF365B001B6706 /* 历史营养计划.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B351DCF365B001B6706 /* 历史营养计划.png */; };
+		2DD45B3A1DCF365B001B6706 /* 代理购物.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B371DCF365B001B6706 /* 代理购物.png */; };
+		2DD45B3B1DCF365B001B6706 /* 代理跑腿.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B381DCF365B001B6706 /* 代理跑腿.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DCF19FA1DCF142400A4F243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DCF19D81DCF142300A4F243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DCF19DF1DCF142300A4F243;
+			remoteInfo = OldManHappy;
+		};
+		2DCF1A051DCF142400A4F243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DCF19D81DCF142300A4F243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DCF19DF1DCF142300A4F243;
+			remoteInfo = OldManHappy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D2FC46D1DCF67B5001BCAF3 /* 代理跑腿详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理跑腿详情.PNG"; sourceTree = "<group>"; };
+		2D2FC46E1DCF67B5001BCAF3 /* 代理购物详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理购物详情.PNG"; sourceTree = "<group>"; };
+		2D3D1D951DCF48F300747861 /* HappyLifeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyLifeListViewController.h; sourceTree = "<group>"; };
+		2D3D1D961DCF48F300747861 /* HappyLifeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyLifeListViewController.m; sourceTree = "<group>"; };
+		2D3D1D981DCF4A6800747861 /* HappyLifeListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyLifeListTableViewCell.h; sourceTree = "<group>"; };
+		2D3D1D991DCF4A6800747861 /* HappyLifeListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyLifeListTableViewCell.m; sourceTree = "<group>"; };
+		2D3D1D9C1DCF4EE600747861 /* 健身器材1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材1.png"; sourceTree = "<group>"; };
+		2D3D1D9D1DCF4EE600747861 /* 健身器材1详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材1详情.PNG"; sourceTree = "<group>"; };
+		2D3D1D9E1DCF4EE600747861 /* 健身器材2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材2.png"; sourceTree = "<group>"; };
+		2D3D1D9F1DCF4EE600747861 /* 健身器材2详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材2详情.PNG"; sourceTree = "<group>"; };
+		2D3D1DA01DCF4EE600747861 /* 健身器材3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材3.png"; sourceTree = "<group>"; };
+		2D3D1DA11DCF4EE600747861 /* 健身器材3详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材3详情.PNG"; sourceTree = "<group>"; };
+		2D3D1DA21DCF4EE600747861 /* 健身器材4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材4.png"; sourceTree = "<group>"; };
+		2D3D1DA31DCF4EE600747861 /* 健身器材4详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材4详情.PNG"; sourceTree = "<group>"; };
+		2D3D1DAD1DCF4F1500747861 /* HappyListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyListDetailViewController.h; sourceTree = "<group>"; };
+		2D3D1DAE1DCF4F1500747861 /* HappyListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyListDetailViewController.m; sourceTree = "<group>"; };
+		2D3D1DB11DCF564500747861 /* 清洁服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清洁服务详情.PNG"; sourceTree = "<group>"; };
+		2D3D1DB41DCF56B400747861 /* CleanDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleanDetailViewController.h; sourceTree = "<group>"; };
+		2D3D1DB51DCF56B400747861 /* CleanDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleanDetailViewController.m; sourceTree = "<group>"; };
+		2D3D1DB71DCF5C1A00747861 /* 陪伴服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陪伴服务详情.PNG"; sourceTree = "<group>"; };
+		2D3D1DB81DCF5C1A00747861 /* 保养服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保养服务详情.PNG"; sourceTree = "<group>"; };
+		2D3D1DB91DCF5C1A00747861 /* 维修服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "维修服务详情.PNG"; sourceTree = "<group>"; };
+		2DACB9C01DCF6ADA00242D75 /* 门店理疗详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "门店理疗详情.PNG"; sourceTree = "<group>"; };
+		2DACB9C11DCF6ADA00242D75 /* 专家咨询详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "专家咨询详情.PNG"; sourceTree = "<group>"; };
+		2DACB9C21DCF6ADA00242D75 /* 特殊护理详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "特殊护理详情.PNG"; sourceTree = "<group>"; };
+		2DACB9C61DCF6C8500242D75 /* 历史营养计划详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "历史营养计划详情.PNG"; sourceTree = "<group>"; };
+		2DACB9C81DCF712200242D75 /* 家电厨具详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "家电厨具详情.PNG"; sourceTree = "<group>"; };
+		2DACB9C91DCF712200242D75 /* 日常用品详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日常用品详情.PNG"; sourceTree = "<group>"; };
+		2DACB9CA1DCF712200242D75 /* 有机蔬菜详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜详情.PNG"; sourceTree = "<group>"; };
+		2DACB9CB1DCF712200242D75 /* 营养套餐详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营养套餐详情.PNG"; sourceTree = "<group>"; };
+		2DCF19E01DCF142400A4F243 /* OldManHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OldManHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCF19E41DCF142400A4F243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DCF19E61DCF142400A4F243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DCF19E71DCF142400A4F243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DCF19E91DCF142400A4F243 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DCF19EA1DCF142400A4F243 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DCF19ED1DCF142400A4F243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DCF19EF1DCF142400A4F243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DCF19F21DCF142400A4F243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DCF19F41DCF142400A4F243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCF19F91DCF142400A4F243 /* OldManHappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OldManHappyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCF19FD1DCF142400A4F243 /* OldManHappyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OldManHappyTests.m; sourceTree = "<group>"; };
+		2DCF19FF1DCF142400A4F243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCF1A041DCF142400A4F243 /* OldManHappyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OldManHappyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCF1A081DCF142400A4F243 /* OldManHappyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OldManHappyUITests.m; sourceTree = "<group>"; };
+		2DCF1A0A1DCF142400A4F243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCF1A161DCF145F00A4F243 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		2DD45ABC1DCF1579001B6706 /* HappyLifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyLifeViewController.h; sourceTree = "<group>"; };
+		2DD45ABD1DCF1579001B6706 /* HappyLifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyLifeViewController.m; sourceTree = "<group>"; };
+		2DD45ABF1DCF158C001B6706 /* MySelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySelfViewController.h; sourceTree = "<group>"; };
+		2DD45AC01DCF158C001B6706 /* MySelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySelfViewController.m; sourceTree = "<group>"; };
+		2DD45AC21DCF15AB001B6706 /* OldFriendCicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldFriendCicleViewController.h; sourceTree = "<group>"; };
+		2DD45AC31DCF15AB001B6706 /* OldFriendCicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldFriendCicleViewController.m; sourceTree = "<group>"; };
+		2DD45AC51DCF15B7001B6706 /* OldToOldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldToOldViewController.h; sourceTree = "<group>"; };
+		2DD45AC61DCF15B7001B6706 /* OldToOldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldToOldViewController.m; sourceTree = "<group>"; };
+		2DD45ACA1DCF1814001B6706 /* 促销@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "促销@3x.png"; sourceTree = "<group>"; };
+		2DD45ACB1DCF1814001B6706 /* 商家@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商家@3x.png"; sourceTree = "<group>"; };
+		2DD45ACC1DCF1814001B6706 /* 我的@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的@3x.png"; sourceTree = "<group>"; };
+		2DD45ACD1DCF1814001B6706 /* 活动@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动@3x.png"; sourceTree = "<group>"; };
+		2DD45AD41DCF1949001B6706 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		2DD45AD51DCF1949001B6706 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2DD45AD61DCF1949001B6706 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2DD45AD71DCF1949001B6706 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		2DD45AD81DCF1949001B6706 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		2DD45AD91DCF1949001B6706 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		2DD45ADA1DCF1949001B6706 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		2DD45ADB1DCF1949001B6706 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		2DD45ADC1DCF1949001B6706 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2DD45ADD1DCF1949001B6706 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		2DD45ADE1DCF1949001B6706 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		2DD45ADF1DCF1949001B6706 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		2DD45AE01DCF1949001B6706 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		2DD45AE11DCF1949001B6706 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		2DD45AE21DCF1949001B6706 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		2DD45AE31DCF1949001B6706 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2DD45AE41DCF1949001B6706 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2DD45AE51DCF1949001B6706 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2DD45AE61DCF1949001B6706 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2DD45AE71DCF1949001B6706 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2DD45AE81DCF1949001B6706 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		2DD45AE91DCF1949001B6706 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		2DD45AEA1DCF1949001B6706 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2DD45AEB1DCF1949001B6706 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		2DD45AEC1DCF1949001B6706 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		2DD45AF81DCF219B001B6706 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2DD45AF91DCF219B001B6706 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2DD45AFC1DCF2771001B6706 /* AppDelegate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Category.h"; sourceTree = "<group>"; };
+		2DD45AFD1DCF2771001B6706 /* AppDelegate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Category.m"; sourceTree = "<group>"; };
+		2DD45AFF1DCF2771001B6706 /* NSArray+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Category.h"; sourceTree = "<group>"; };
+		2DD45B001DCF2771001B6706 /* NSArray+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Category.m"; sourceTree = "<group>"; };
+		2DD45B011DCF2771001B6706 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		2DD45B021DCF2771001B6706 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		2DD45B041DCF2771001B6706 /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
+		2DD45B051DCF2771001B6706 /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		2DD45B061DCF2771001B6706 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		2DD45B071DCF2771001B6706 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		2DD45B081DCF2771001B6706 /* UILabel+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
+		2DD45B091DCF2771001B6706 /* UILabel+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
+		2DD45B0A1DCF2771001B6706 /* UITextField+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Category.h"; sourceTree = "<group>"; };
+		2DD45B0B1DCF2771001B6706 /* UITextField+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Category.m"; sourceTree = "<group>"; };
+		2DD45B0C1DCF2771001B6706 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		2DD45B0D1DCF2771001B6706 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		2DD45B181DCF2EE3001B6706 /* 保健器材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保健器材.png"; sourceTree = "<group>"; };
+		2DD45B191DCF2EE3001B6706 /* 家电厨具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "家电厨具.png"; sourceTree = "<group>"; };
+		2DD45B1A1DCF2EE3001B6706 /* 日常用品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日常用品.png"; sourceTree = "<group>"; };
+		2DD45B1B1DCF2EE3001B6706 /* 有机蔬菜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜.png"; sourceTree = "<group>"; };
+		2DD45B1C1DCF2EE3001B6706 /* 营养套餐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营养套餐.png"; sourceTree = "<group>"; };
+		2DD45B221DCF3022001B6706 /* 有机蔬菜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜.png"; sourceTree = "<group>"; };
+		2DD45B251DCF3478001B6706 /* 保养服务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保养服务.png"; sourceTree = "<group>"; };
+		2DD45B261DCF3478001B6706 /* 清洁服务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清洁服务.png"; sourceTree = "<group>"; };
+		2DD45B271DCF3478001B6706 /* 维修服务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "维修服务.png"; sourceTree = "<group>"; };
+		2DD45B281DCF3478001B6706 /* 陪伴服务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陪伴服务.png"; sourceTree = "<group>"; };
+		2DD45B2E1DCF357F001B6706 /* 专家咨询.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "专家咨询.png"; sourceTree = "<group>"; };
+		2DD45B2F1DCF357F001B6706 /* 特殊护理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "特殊护理.png"; sourceTree = "<group>"; };
+		2DD45B301DCF357F001B6706 /* 门店理疗.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "门店理疗.png"; sourceTree = "<group>"; };
+		2DD45B351DCF365B001B6706 /* 历史营养计划.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "历史营养计划.png"; sourceTree = "<group>"; };
+		2DD45B371DCF365B001B6706 /* 代理购物.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理购物.png"; sourceTree = "<group>"; };
+		2DD45B381DCF365B001B6706 /* 代理跑腿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理跑腿.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DCF19DD1DCF142300A4F243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCF19F61DCF142400A4F243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCF1A011DCF142400A4F243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D3D1D941DCF48DD00747861 /* HappyLifeListVC */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D1DAC1DCF4F0100747861 /* HappyListDetailVC */,
+				2D3D1D951DCF48F300747861 /* HappyLifeListViewController.h */,
+				2D3D1D961DCF48F300747861 /* HappyLifeListViewController.m */,
+				2D3D1D981DCF4A6800747861 /* HappyLifeListTableViewCell.h */,
+				2D3D1D991DCF4A6800747861 /* HappyLifeListTableViewCell.m */,
+			);
+			path = HappyLifeListVC;
+			sourceTree = "<group>";
+		};
+		2D3D1D9B1DCF4EE600747861 /* 健身器材 */ = {
+			isa = PBXGroup;
+			children = (
+				2DACB9C81DCF712200242D75 /* 家电厨具详情.PNG */,
+				2DACB9C91DCF712200242D75 /* 日常用品详情.PNG */,
+				2DACB9CA1DCF712200242D75 /* 有机蔬菜详情.PNG */,
+				2DACB9CB1DCF712200242D75 /* 营养套餐详情.PNG */,
+				2D3D1D9C1DCF4EE600747861 /* 健身器材1.png */,
+				2D3D1D9D1DCF4EE600747861 /* 健身器材1详情.PNG */,
+				2D3D1D9E1DCF4EE600747861 /* 健身器材2.png */,
+				2D3D1D9F1DCF4EE600747861 /* 健身器材2详情.PNG */,
+				2D3D1DA01DCF4EE600747861 /* 健身器材3.png */,
+				2D3D1DA11DCF4EE600747861 /* 健身器材3详情.PNG */,
+				2D3D1DA21DCF4EE600747861 /* 健身器材4.png */,
+				2D3D1DA31DCF4EE600747861 /* 健身器材4详情.PNG */,
+			);
+			path = "健身器材";
+			sourceTree = "<group>";
+		};
+		2D3D1DAC1DCF4F0100747861 /* HappyListDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D1DAD1DCF4F1500747861 /* HappyListDetailViewController.h */,
+				2D3D1DAE1DCF4F1500747861 /* HappyListDetailViewController.m */,
+			);
+			path = HappyListDetailVC;
+			sourceTree = "<group>";
+		};
+		2D3D1DB01DCF564500747861 /* 家政服务 */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D1DB71DCF5C1A00747861 /* 陪伴服务详情.PNG */,
+				2D3D1DB81DCF5C1A00747861 /* 保养服务详情.PNG */,
+				2D3D1DB91DCF5C1A00747861 /* 维修服务详情.PNG */,
+				2D3D1DB11DCF564500747861 /* 清洁服务详情.PNG */,
+			);
+			path = "家政服务";
+			sourceTree = "<group>";
+		};
+		2D3D1DB31DCF567D00747861 /* CleanDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D1DB41DCF56B400747861 /* CleanDetailViewController.h */,
+				2D3D1DB51DCF56B400747861 /* CleanDetailViewController.m */,
+			);
+			path = CleanDetailVC;
+			sourceTree = "<group>";
+		};
+		2DA211151DCF1511008994D6 /* 老吾老 */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45AC51DCF15B7001B6706 /* OldToOldViewController.h */,
+				2DD45AC61DCF15B7001B6706 /* OldToOldViewController.m */,
+			);
+			path = "老吾老";
+			sourceTree = "<group>";
+		};
+		2DA211161DCF1511008994D6 /* 老友圈 */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45AC21DCF15AB001B6706 /* OldFriendCicleViewController.h */,
+				2DD45AC31DCF15AB001B6706 /* OldFriendCicleViewController.m */,
+			);
+			path = "老友圈";
+			sourceTree = "<group>";
+		};
+		2DA211171DCF1511008994D6 /* 我的主页 */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45ABF1DCF158C001B6706 /* MySelfViewController.h */,
+				2DD45AC01DCF158C001B6706 /* MySelfViewController.m */,
+			);
+			path = "我的主页";
+			sourceTree = "<group>";
+		};
+		2DA211181DCF1511008994D6 /* 悦生活 */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D1DB31DCF567D00747861 /* CleanDetailVC */,
+				2D3D1D941DCF48DD00747861 /* HappyLifeListVC */,
+				2DD45ABC1DCF1579001B6706 /* HappyLifeViewController.h */,
+				2DD45ABD1DCF1579001B6706 /* HappyLifeViewController.m */,
+			);
+			path = "悦生活";
+			sourceTree = "<group>";
+		};
+		2DCF19D71DCF142300A4F243 = {
+			isa = PBXGroup;
+			children = (
+				2DCF19E21DCF142400A4F243 /* OldManHappy */,
+				2DCF19FC1DCF142400A4F243 /* OldManHappyTests */,
+				2DCF1A071DCF142400A4F243 /* OldManHappyUITests */,
+				2DCF19E11DCF142400A4F243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DCF19E11DCF142400A4F243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DCF19E01DCF142400A4F243 /* OldManHappy.app */,
+				2DCF19F91DCF142400A4F243 /* OldManHappyTests.xctest */,
+				2DCF1A041DCF142400A4F243 /* OldManHappyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DCF19E21DCF142400A4F243 /* OldManHappy */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45AFB1DCF2771001B6706 /* Category */,
+				2DD45AF71DCF217D001B6706 /* BaseVC */,
+				2DD45AD21DCF1942001B6706 /* Tools */,
+				2DD45AC81DCF17F0001B6706 /* SourceImages */,
+				2DA211151DCF1511008994D6 /* 老吾老 */,
+				2DA211161DCF1511008994D6 /* 老友圈 */,
+				2DA211171DCF1511008994D6 /* 我的主页 */,
+				2DA211181DCF1511008994D6 /* 悦生活 */,
+				2DCF19E61DCF142400A4F243 /* AppDelegate.h */,
+				2DCF19E71DCF142400A4F243 /* AppDelegate.m */,
+				2DCF19E91DCF142400A4F243 /* ViewController.h */,
+				2DCF19EA1DCF142400A4F243 /* ViewController.m */,
+				2DCF19EC1DCF142400A4F243 /* Main.storyboard */,
+				2DCF19EF1DCF142400A4F243 /* Assets.xcassets */,
+				2DCF19F11DCF142400A4F243 /* LaunchScreen.storyboard */,
+				2DCF19F41DCF142400A4F243 /* Info.plist */,
+				2DCF19E31DCF142400A4F243 /* Supporting Files */,
+			);
+			path = OldManHappy;
+			sourceTree = "<group>";
+		};
+		2DCF19E31DCF142400A4F243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DCF19E41DCF142400A4F243 /* main.m */,
+				2DCF1A161DCF145F00A4F243 /* Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DCF19FC1DCF142400A4F243 /* OldManHappyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DCF19FD1DCF142400A4F243 /* OldManHappyTests.m */,
+				2DCF19FF1DCF142400A4F243 /* Info.plist */,
+			);
+			path = OldManHappyTests;
+			sourceTree = "<group>";
+		};
+		2DCF1A071DCF142400A4F243 /* OldManHappyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DCF1A081DCF142400A4F243 /* OldManHappyUITests.m */,
+				2DCF1A0A1DCF142400A4F243 /* Info.plist */,
+			);
+			path = OldManHappyUITests;
+			sourceTree = "<group>";
+		};
+		2DD45AC81DCF17F0001B6706 /* SourceImages */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45B161DCF2EE3001B6706 /* 悦生活 */,
+				2DD45AC91DCF1814001B6706 /* tabBar */,
+			);
+			path = SourceImages;
+			sourceTree = "<group>";
+		};
+		2DD45AC91DCF1814001B6706 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45ACA1DCF1814001B6706 /* 促销@3x.png */,
+				2DD45ACB1DCF1814001B6706 /* 商家@3x.png */,
+				2DD45ACC1DCF1814001B6706 /* 我的@3x.png */,
+				2DD45ACD1DCF1814001B6706 /* 活动@3x.png */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		2DD45AD21DCF1942001B6706 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45AD31DCF1949001B6706 /* Masonry */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2DD45AD31DCF1949001B6706 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45AD41DCF1949001B6706 /* MASCompositeConstraint.h */,
+				2DD45AD51DCF1949001B6706 /* MASCompositeConstraint.m */,
+				2DD45AD61DCF1949001B6706 /* MASConstraint+Private.h */,
+				2DD45AD71DCF1949001B6706 /* MASConstraint.h */,
+				2DD45AD81DCF1949001B6706 /* MASConstraint.m */,
+				2DD45AD91DCF1949001B6706 /* MASConstraintMaker.h */,
+				2DD45ADA1DCF1949001B6706 /* MASConstraintMaker.m */,
+				2DD45ADB1DCF1949001B6706 /* MASLayoutConstraint.h */,
+				2DD45ADC1DCF1949001B6706 /* MASLayoutConstraint.m */,
+				2DD45ADD1DCF1949001B6706 /* Masonry.h */,
+				2DD45ADE1DCF1949001B6706 /* MASUtilities.h */,
+				2DD45ADF1DCF1949001B6706 /* MASViewAttribute.h */,
+				2DD45AE01DCF1949001B6706 /* MASViewAttribute.m */,
+				2DD45AE11DCF1949001B6706 /* MASViewConstraint.h */,
+				2DD45AE21DCF1949001B6706 /* MASViewConstraint.m */,
+				2DD45AE31DCF1949001B6706 /* NSArray+MASAdditions.h */,
+				2DD45AE41DCF1949001B6706 /* NSArray+MASAdditions.m */,
+				2DD45AE51DCF1949001B6706 /* NSArray+MASShorthandAdditions.h */,
+				2DD45AE61DCF1949001B6706 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2DD45AE71DCF1949001B6706 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2DD45AE81DCF1949001B6706 /* View+MASAdditions.h */,
+				2DD45AE91DCF1949001B6706 /* View+MASAdditions.m */,
+				2DD45AEA1DCF1949001B6706 /* View+MASShorthandAdditions.h */,
+				2DD45AEB1DCF1949001B6706 /* ViewController+MASAdditions.h */,
+				2DD45AEC1DCF1949001B6706 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		2DD45AF71DCF217D001B6706 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45AF81DCF219B001B6706 /* BaseViewController.h */,
+				2DD45AF91DCF219B001B6706 /* BaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		2DD45AFB1DCF2771001B6706 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45AFC1DCF2771001B6706 /* AppDelegate+Category.h */,
+				2DD45AFD1DCF2771001B6706 /* AppDelegate+Category.m */,
+				2DD45AFE1DCF2771001B6706 /* NS */,
+				2DD45B031DCF2771001B6706 /* UI */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2DD45AFE1DCF2771001B6706 /* NS */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45AFF1DCF2771001B6706 /* NSArray+Category.h */,
+				2DD45B001DCF2771001B6706 /* NSArray+Category.m */,
+				2DD45B011DCF2771001B6706 /* NSString+Category.h */,
+				2DD45B021DCF2771001B6706 /* NSString+Category.m */,
+			);
+			path = NS;
+			sourceTree = "<group>";
+		};
+		2DD45B031DCF2771001B6706 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45B041DCF2771001B6706 /* UIButton+Category.h */,
+				2DD45B051DCF2771001B6706 /* UIButton+Category.m */,
+				2DD45B061DCF2771001B6706 /* UIImage+Category.h */,
+				2DD45B071DCF2771001B6706 /* UIImage+Category.m */,
+				2DD45B081DCF2771001B6706 /* UILabel+Category.h */,
+				2DD45B091DCF2771001B6706 /* UILabel+Category.m */,
+				2DD45B0A1DCF2771001B6706 /* UITextField+Category.h */,
+				2DD45B0B1DCF2771001B6706 /* UITextField+Category.m */,
+				2DD45B0C1DCF2771001B6706 /* UIView+Category.h */,
+				2DD45B0D1DCF2771001B6706 /* UIView+Category.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2DD45B161DCF2EE3001B6706 /* 悦生活 */ = {
+			isa = PBXGroup;
+			children = (
+				2DD45B341DCF365B001B6706 /* 营养计划 */,
+				2DD45B361DCF365B001B6706 /* 跑腿服务 */,
+				2DD45B2D1DCF357F001B6706 /* 医疗健康 */,
+				2DD45B241DCF3478001B6706 /* 家政服务 */,
+				2DD45B171DCF2EE3001B6706 /* 线上商城 */,
+			);
+			path = "悦生活";
+			sourceTree = "<group>";
+		};
+		2DD45B171DCF2EE3001B6706 /* 线上商城 */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D1D9B1DCF4EE600747861 /* 健身器材 */,
+				2DD45B221DCF3022001B6706 /* 有机蔬菜.png */,
+				2DD45B181DCF2EE3001B6706 /* 保健器材.png */,
+				2DD45B191DCF2EE3001B6706 /* 家电厨具.png */,
+				2DD45B1A1DCF2EE3001B6706 /* 日常用品.png */,
+				2DD45B1B1DCF2EE3001B6706 /* 有机蔬菜.png */,
+				2DD45B1C1DCF2EE3001B6706 /* 营养套餐.png */,
+			);
+			path = "线上商城";
+			sourceTree = "<group>";
+		};
+		2DD45B241DCF3478001B6706 /* 家政服务 */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D1DB01DCF564500747861 /* 家政服务 */,
+				2DD45B251DCF3478001B6706 /* 保养服务.png */,
+				2DD45B261DCF3478001B6706 /* 清洁服务.png */,
+				2DD45B271DCF3478001B6706 /* 维修服务.png */,
+				2DD45B281DCF3478001B6706 /* 陪伴服务.png */,
+			);
+			path = "家政服务";
+			sourceTree = "<group>";
+		};
+		2DD45B2D1DCF357F001B6706 /* 医疗健康 */ = {
+			isa = PBXGroup;
+			children = (
+				2DACB9C01DCF6ADA00242D75 /* 门店理疗详情.PNG */,
+				2DACB9C11DCF6ADA00242D75 /* 专家咨询详情.PNG */,
+				2DACB9C21DCF6ADA00242D75 /* 特殊护理详情.PNG */,
+				2DD45B2E1DCF357F001B6706 /* 专家咨询.png */,
+				2DD45B2F1DCF357F001B6706 /* 特殊护理.png */,
+				2DD45B301DCF357F001B6706 /* 门店理疗.png */,
+			);
+			path = "医疗健康";
+			sourceTree = "<group>";
+		};
+		2DD45B341DCF365B001B6706 /* 营养计划 */ = {
+			isa = PBXGroup;
+			children = (
+				2DACB9C61DCF6C8500242D75 /* 历史营养计划详情.PNG */,
+				2DD45B351DCF365B001B6706 /* 历史营养计划.png */,
+			);
+			path = "营养计划";
+			sourceTree = "<group>";
+		};
+		2DD45B361DCF365B001B6706 /* 跑腿服务 */ = {
+			isa = PBXGroup;
+			children = (
+				2D2FC46D1DCF67B5001BCAF3 /* 代理跑腿详情.PNG */,
+				2D2FC46E1DCF67B5001BCAF3 /* 代理购物详情.PNG */,
+				2DD45B371DCF365B001B6706 /* 代理购物.png */,
+				2DD45B381DCF365B001B6706 /* 代理跑腿.png */,
+			);
+			path = "跑腿服务";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DCF19DF1DCF142300A4F243 /* OldManHappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DCF1A0D1DCF142400A4F243 /* Build configuration list for PBXNativeTarget "OldManHappy" */;
+			buildPhases = (
+				2DCF19DC1DCF142300A4F243 /* Sources */,
+				2DCF19DD1DCF142300A4F243 /* Frameworks */,
+				2DCF19DE1DCF142300A4F243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OldManHappy;
+			productName = OldManHappy;
+			productReference = 2DCF19E01DCF142400A4F243 /* OldManHappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DCF19F81DCF142400A4F243 /* OldManHappyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DCF1A101DCF142400A4F243 /* Build configuration list for PBXNativeTarget "OldManHappyTests" */;
+			buildPhases = (
+				2DCF19F51DCF142400A4F243 /* Sources */,
+				2DCF19F61DCF142400A4F243 /* Frameworks */,
+				2DCF19F71DCF142400A4F243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DCF19FB1DCF142400A4F243 /* PBXTargetDependency */,
+			);
+			name = OldManHappyTests;
+			productName = OldManHappyTests;
+			productReference = 2DCF19F91DCF142400A4F243 /* OldManHappyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DCF1A031DCF142400A4F243 /* OldManHappyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DCF1A131DCF142400A4F243 /* Build configuration list for PBXNativeTarget "OldManHappyUITests" */;
+			buildPhases = (
+				2DCF1A001DCF142400A4F243 /* Sources */,
+				2DCF1A011DCF142400A4F243 /* Frameworks */,
+				2DCF1A021DCF142400A4F243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DCF1A061DCF142400A4F243 /* PBXTargetDependency */,
+			);
+			name = OldManHappyUITests;
+			productName = OldManHappyUITests;
+			productReference = 2DCF1A041DCF142400A4F243 /* OldManHappyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DCF19D81DCF142300A4F243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zhangyi;
+				TargetAttributes = {
+					2DCF19DF1DCF142300A4F243 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2DCF19F81DCF142400A4F243 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DCF19DF1DCF142300A4F243;
+					};
+					2DCF1A031DCF142400A4F243 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DCF19DF1DCF142300A4F243;
+					};
+				};
+			};
+			buildConfigurationList = 2DCF19DB1DCF142300A4F243 /* Build configuration list for PBXProject "OldManHappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DCF19D71DCF142300A4F243;
+			productRefGroup = 2DCF19E11DCF142400A4F243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DCF19DF1DCF142300A4F243 /* OldManHappy */,
+				2DCF19F81DCF142400A4F243 /* OldManHappyTests */,
+				2DCF1A031DCF142400A4F243 /* OldManHappyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DCF19DE1DCF142300A4F243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD45B231DCF3022001B6706 /* 有机蔬菜.png in Resources */,
+				2DD45AD01DCF1814001B6706 /* 我的@3x.png in Resources */,
+				2D3D1DA51DCF4EE600747861 /* 健身器材1详情.PNG in Resources */,
+				2DACB9C71DCF6C8500242D75 /* 历史营养计划详情.PNG in Resources */,
+				2DD45B1F1DCF2EE3001B6706 /* 日常用品.png in Resources */,
+				2DD45B201DCF2EE3001B6706 /* 有机蔬菜.png in Resources */,
+				2DCF19F31DCF142400A4F243 /* LaunchScreen.storyboard in Resources */,
+				2D3D1DA41DCF4EE600747861 /* 健身器材1.png in Resources */,
+				2D3D1DBC1DCF5C1A00747861 /* 维修服务详情.PNG in Resources */,
+				2DD45B291DCF3478001B6706 /* 保养服务.png in Resources */,
+				2DD45B3A1DCF365B001B6706 /* 代理购物.png in Resources */,
+				2DCF19F01DCF142400A4F243 /* Assets.xcassets in Resources */,
+				2D3D1DBA1DCF5C1A00747861 /* 陪伴服务详情.PNG in Resources */,
+				2DD45B3B1DCF365B001B6706 /* 代理跑腿.png in Resources */,
+				2DACB9C51DCF6ADA00242D75 /* 特殊护理详情.PNG in Resources */,
+				2DACB9CF1DCF712200242D75 /* 营养套餐详情.PNG in Resources */,
+				2D2FC46F1DCF67B5001BCAF3 /* 代理跑腿详情.PNG in Resources */,
+				2DD45ACE1DCF1814001B6706 /* 促销@3x.png in Resources */,
+				2DD45B311DCF357F001B6706 /* 专家咨询.png in Resources */,
+				2DD45B2C1DCF3478001B6706 /* 陪伴服务.png in Resources */,
+				2D3D1DAA1DCF4EE600747861 /* 健身器材4.png in Resources */,
+				2D3D1DB21DCF564500747861 /* 清洁服务详情.PNG in Resources */,
+				2DD45B211DCF2EE3001B6706 /* 营养套餐.png in Resources */,
+				2D3D1DA91DCF4EE600747861 /* 健身器材3详情.PNG in Resources */,
+				2D3D1DA71DCF4EE600747861 /* 健身器材2详情.PNG in Resources */,
+				2DD45ACF1DCF1814001B6706 /* 商家@3x.png in Resources */,
+				2DD45B2A1DCF3478001B6706 /* 清洁服务.png in Resources */,
+				2DD45B391DCF365B001B6706 /* 历史营养计划.png in Resources */,
+				2D2FC4701DCF67B5001BCAF3 /* 代理购物详情.PNG in Resources */,
+				2DACB9C41DCF6ADA00242D75 /* 专家咨询详情.PNG in Resources */,
+				2D3D1DAB1DCF4EE600747861 /* 健身器材4详情.PNG in Resources */,
+				2DD45B2B1DCF3478001B6706 /* 维修服务.png in Resources */,
+				2D3D1DBB1DCF5C1A00747861 /* 保养服务详情.PNG in Resources */,
+				2DACB9CD1DCF712200242D75 /* 日常用品详情.PNG in Resources */,
+				2DACB9CC1DCF712200242D75 /* 家电厨具详情.PNG in Resources */,
+				2DD45B1D1DCF2EE3001B6706 /* 保健器材.png in Resources */,
+				2DACB9CE1DCF712200242D75 /* 有机蔬菜详情.PNG in Resources */,
+				2D3D1DA61DCF4EE600747861 /* 健身器材2.png in Resources */,
+				2DCF19EE1DCF142400A4F243 /* Main.storyboard in Resources */,
+				2DD45AD11DCF1814001B6706 /* 活动@3x.png in Resources */,
+				2DD45B1E1DCF2EE3001B6706 /* 家电厨具.png in Resources */,
+				2DACB9C31DCF6ADA00242D75 /* 门店理疗详情.PNG in Resources */,
+				2DD45B321DCF357F001B6706 /* 特殊护理.png in Resources */,
+				2DD45B331DCF357F001B6706 /* 门店理疗.png in Resources */,
+				2D3D1DA81DCF4EE600747861 /* 健身器材3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCF19F71DCF142400A4F243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCF1A021DCF142400A4F243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DCF19DC1DCF142300A4F243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD45AF31DCF1949001B6706 /* NSArray+MASAdditions.m in Sources */,
+				2DD45AFA1DCF219B001B6706 /* BaseViewController.m in Sources */,
+				2DD45AF21DCF1949001B6706 /* MASViewConstraint.m in Sources */,
+				2DD45AC71DCF15B7001B6706 /* OldToOldViewController.m in Sources */,
+				2DD45B131DCF2771001B6706 /* UILabel+Category.m in Sources */,
+				2DD45AEF1DCF1949001B6706 /* MASConstraintMaker.m in Sources */,
+				2DD45B151DCF2771001B6706 /* UIView+Category.m in Sources */,
+				2D3D1DB61DCF56B400747861 /* CleanDetailViewController.m in Sources */,
+				2DD45AF51DCF1949001B6706 /* View+MASAdditions.m in Sources */,
+				2D3D1D971DCF48F300747861 /* HappyLifeListViewController.m in Sources */,
+				2DCF19EB1DCF142400A4F243 /* ViewController.m in Sources */,
+				2DD45B141DCF2771001B6706 /* UITextField+Category.m in Sources */,
+				2DD45B101DCF2771001B6706 /* NSString+Category.m in Sources */,
+				2DD45AEE1DCF1949001B6706 /* MASConstraint.m in Sources */,
+				2DD45B111DCF2771001B6706 /* UIButton+Category.m in Sources */,
+				2DD45AC11DCF158C001B6706 /* MySelfViewController.m in Sources */,
+				2DD45AF11DCF1949001B6706 /* MASViewAttribute.m in Sources */,
+				2D3D1D9A1DCF4A6800747861 /* HappyLifeListTableViewCell.m in Sources */,
+				2DD45AF41DCF1949001B6706 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2DD45ABE1DCF1579001B6706 /* HappyLifeViewController.m in Sources */,
+				2DD45AED1DCF1949001B6706 /* MASCompositeConstraint.m in Sources */,
+				2DD45AF01DCF1949001B6706 /* MASLayoutConstraint.m in Sources */,
+				2DD45B0F1DCF2771001B6706 /* NSArray+Category.m in Sources */,
+				2DD45AC41DCF15AB001B6706 /* OldFriendCicleViewController.m in Sources */,
+				2DD45B0E1DCF2771001B6706 /* AppDelegate+Category.m in Sources */,
+				2D3D1DAF1DCF4F1500747861 /* HappyListDetailViewController.m in Sources */,
+				2DCF19E81DCF142400A4F243 /* AppDelegate.m in Sources */,
+				2DD45AF61DCF1949001B6706 /* ViewController+MASAdditions.m in Sources */,
+				2DCF19E51DCF142400A4F243 /* main.m in Sources */,
+				2DD45B121DCF2771001B6706 /* UIImage+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCF19F51DCF142400A4F243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCF19FE1DCF142400A4F243 /* OldManHappyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCF1A001DCF142400A4F243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCF1A091DCF142400A4F243 /* OldManHappyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DCF19FB1DCF142400A4F243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DCF19DF1DCF142300A4F243 /* OldManHappy */;
+			targetProxy = 2DCF19FA1DCF142400A4F243 /* PBXContainerItemProxy */;
+		};
+		2DCF1A061DCF142400A4F243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DCF19DF1DCF142300A4F243 /* OldManHappy */;
+			targetProxy = 2DCF1A051DCF142400A4F243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DCF19EC1DCF142400A4F243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DCF19ED1DCF142400A4F243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DCF19F11DCF142400A4F243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DCF19F21DCF142400A4F243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DCF1A0B1DCF142400A4F243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DCF1A0C1DCF142400A4F243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DCF1A0E1DCF142400A4F243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OldManHappy/Header.h";
+				INFOPLIST_FILE = OldManHappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpyl.chengdu.OldManHappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DCF1A0F1DCF142400A4F243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OldManHappy/Header.h";
+				INFOPLIST_FILE = OldManHappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpyl.chengdu.OldManHappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2DCF1A111DCF142400A4F243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OldManHappyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpyl.chengdu.OldManHappyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OldManHappy.app/OldManHappy";
+			};
+			name = Debug;
+		};
+		2DCF1A121DCF142400A4F243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OldManHappyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpyl.chengdu.OldManHappyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OldManHappy.app/OldManHappy";
+			};
+			name = Release;
+		};
+		2DCF1A141DCF142400A4F243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OldManHappyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpyl.chengdu.OldManHappyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OldManHappy;
+			};
+			name = Debug;
+		};
+		2DCF1A151DCF142400A4F243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OldManHappyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpyl.chengdu.OldManHappyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OldManHappy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DCF19DB1DCF142300A4F243 /* Build configuration list for PBXProject "OldManHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCF1A0B1DCF142400A4F243 /* Debug */,
+				2DCF1A0C1DCF142400A4F243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DCF1A0D1DCF142400A4F243 /* Build configuration list for PBXNativeTarget "OldManHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCF1A0E1DCF142400A4F243 /* Debug */,
+				2DCF1A0F1DCF142400A4F243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DCF1A101DCF142400A4F243 /* Build configuration list for PBXNativeTarget "OldManHappyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCF1A111DCF142400A4F243 /* Debug */,
+				2DCF1A121DCF142400A4F243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DCF1A131DCF142400A4F243 /* Build configuration list for PBXNativeTarget "OldManHappyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCF1A141DCF142400A4F243 /* Debug */,
+				2DCF1A151DCF142400A4F243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DCF19D81DCF142300A4F243 /* Project object */;
+}
