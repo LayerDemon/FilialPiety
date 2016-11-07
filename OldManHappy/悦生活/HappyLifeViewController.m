@@ -10,6 +10,7 @@
 #import "HappyLifeListViewController.h"
 
 #import "CleanDetailViewController.h"
+#import "AppointViewController.h"
 
 #define BUTTON_TAG 1000
 
@@ -185,6 +186,13 @@
         case 1:
         {
             NSArray * titleArray = @[@"维修服务",@"清洁服务",@"保养服务",@"陪伴服务"];
+            
+            if (index == 1) {
+                AppointViewController *appointVC = [[AppointViewController alloc] initWithTitle:titleArray[index]];
+                [self.navigationController pushViewController:appointVC animated:YES];
+                return;
+            }
+            
             CleanDetailViewController * cleanVC = [[CleanDetailViewController alloc] initWithTitle:titleArray[index]];
             [self.navigationController pushViewController:cleanVC animated:YES];
         }
