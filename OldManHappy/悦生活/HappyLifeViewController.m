@@ -12,6 +12,8 @@
 #import "CleanDetailViewController.h"
 #import "AppointViewController.h"
 
+#import "NewsScrollView.h"
+
 #define BUTTON_TAG 1000
 
 @interface HappyLifeViewController ()
@@ -51,11 +53,17 @@
 {
     self.view.backgroundColor = THEMECOLOR_BG;
     
+    NSArray * imageArray = [NSArray arrayWithObjects:@"广告1",@"广告2",@"广告3", nil];
+    
+    NewsScrollView * topScrollView = [[NewsScrollView alloc] initWithFrame:CGRectMake(0, 0, NOW_SCR_W, 150) dataSource:imageArray];
+    topScrollView.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:topScrollView];
+    
     //线上商城
     UIView * mallOnLineView = [self createTypeViewWithTitle:@"线上商城" detail:@"低价，促销，抢购" buttonTitleArray:@[@"保健器材",@"营养套餐",@"有机蔬菜",@"家电厨具",@"日常用品"] baseTag:BUTTON_TAG];
     
     [mallOnLineView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(@0);
+        make.top.equalTo(@150);
     }];
     
     //家政服务
@@ -86,7 +94,7 @@
         make.top.equalTo(planView.bottom).offset(@10);
     }];
     
-    ((UIScrollView *)self.view).contentSize = CGSizeMake(NOW_SCR_W, 180 * 5);
+    ((UIScrollView *)self.view).contentSize = CGSizeMake(NOW_SCR_W, 180 * 5 + 150);
 }
 
 
