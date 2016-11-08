@@ -18,6 +18,7 @@
 #import "BaseViewController.h"
 
 //tool
+#import "LBBaseHeader.h"
 #import "Masonry.h"                     //自动布局
 
 
@@ -38,7 +39,9 @@
 //主题色
 #define THEMECOLOR_BACKGROUND _COLOR(230, 230, 230, 1)   //背景色
 #define THEMECOLOR_BUTTON     _COLOR(38, 140, 218, 1)    //按钮色
-#define THEMECOLOR_TINT       _COLOR(31, 139, 214, 1)
+//#define THEMECOLOR_BUTTON ARGB_COLOR(66, 186, 127, 1)
+//#define THEMECOLOR_TINT       _COLOR(31, 139, 214, 1)
+#define THEMECOLOR_TINT ARGB_COLOR(66, 186, 127, 1)
 #define THEMECOLOR_LIGHTBACK  _COLOR(244,244,244,1);
 #define THEMECOLOR_BG           _COLOR(245, 245, 245, 1)    //背景色
 #define THEMECOLOR_BUT          _COLOR(255, 215, 57, 1)            //button偏黑色

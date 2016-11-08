@@ -48,19 +48,27 @@
     
     OldToOldViewController * checkDataVC = [[OldToOldViewController alloc] init];
     UINavigationController * checkNav = [[UINavigationController alloc] initWithRootViewController:checkDataVC];
-    checkNav.navigationBar.tintColor = [UIColor whiteColor];
-    checkNav.navigationBar.barTintColor = THEMECOLOR_TINT;
+    checkNav.navigationBar.tintColor = NAVTITLE_TINTCOLOR;
+    checkNav.navigationBar.barTintColor = ITEM_SELECT_COLOR;
+    checkNav.navigationBar.translucent = NO;
+    [checkNav.navigationBar setBackgroundImage:[[UIImage alloc]init]
+                                forBarMetrics:UIBarMetricsDefault];
+    checkNav.navigationBar.shadowImage = [[UIImage alloc] init];
     checkNav.tabBarItem.title= @"老吾老";
     checkNav.tabBarItem.image = [UIImage imageNamed:@"商家"];
-    checkNav.navigationBar.titleTextAttributes = dict;
+    
     
     OldFriendCicleViewController * infoVC = [[OldFriendCicleViewController alloc] init];
     UINavigationController * infoNav = [[UINavigationController alloc] initWithRootViewController:infoVC];
-    infoNav.navigationBar.tintColor = [UIColor whiteColor];
-    infoNav.navigationBar.barTintColor = THEMECOLOR_TINT;
+    infoNav.navigationBar.tintColor = NAVTITLE_TINTCOLOR;
+    infoNav.navigationBar.barTintColor = ITEM_SELECT_COLOR;
+    infoNav.navigationBar.translucent = NO;
+    [infoNav.navigationBar setBackgroundImage:[[UIImage alloc]init]
+                                forBarMetrics:UIBarMetricsDefault];
+    infoNav.navigationBar.shadowImage = [[UIImage alloc] init];
     infoNav.tabBarItem.title = @"老友圈";
     infoNav.tabBarItem.image = [UIImage imageNamed:@"活动"];
-    infoNav.navigationBar.titleTextAttributes = dict;
+    
     
     MySelfViewController  * personalVC = [[MySelfViewController alloc] init];
     UINavigationController  * personalNav = [[UINavigationController alloc] initWithRootViewController:personalVC];
@@ -72,6 +80,7 @@
     
     UITabBarController * tabVC = [[UITabBarController alloc] init];
     tabVC.viewControllers = @[homeNav,checkNav,infoNav,personalNav];
+    tabVC.tabBar.tintColor = ITEM_SELECT_COLOR;
     
     self.window.rootViewController = tabVC;
 }

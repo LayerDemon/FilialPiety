@@ -16,5 +16,6 @@
 
 + (UIImage *)resizedImage:(NSString *)name;
 
+- (UIImage*)imageByScalingAndCroppingForSize:(CGSize)targetSize;
 
 @end

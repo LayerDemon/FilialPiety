@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ugp-HT-gaL" customClass="RbSetTimeAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="vQR-ja-OML">
+                    <rect key="frame" x="27" y="174" width="266" height="208"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" id="5hZ-wW-xD1">
+                            <rect key="frame" x="0.0" y="2" width="266" height="165"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <date key="date" timeIntervalSinceReferenceDate="495453252.37965202">
+                                <!--2016-09-13 09:54:12 +0000-->
+                            </date>
+                            <connections>
+                                <action selector="datePickerValueChanged:" destination="Ugp-HT-gaL" eventType="valueChanged" id="QlD-e3-SnC"/>
+                            </connections>
+                        </datePicker>
+                        <view contentMode="scaleToFill" id="hwp-tc-rva">
+                            <rect key="frame" x="0.0" y="0.0" width="266" height="3"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.69803921568627447" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wzj-0z-JYc">
+                            <rect key="frame" x="133" y="166" width="133" height="42"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="提醒 [21:00]">
+                                <color key="titleColor" red="0.20000000000000001" green="0.69803921568627447" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="setBtnPressed:" destination="Ugp-HT-gaL" eventType="touchUpInside" id="Oeq-H8-zXl"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7ZY-x4-cyt">
+                            <rect key="frame" x="0.0" y="166" width="133" height="42"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="不提醒">
+                                <color key="titleColor" red="0.9137254901960784" green="0.3411764705882353" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="deleteBtnPressed:" destination="Ugp-HT-gaL" eventType="touchUpInside" id="7fd-A2-YMG"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="8Vz-Nn-Hbc">
+                            <rect key="frame" x="0.0" y="166" width="266" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="V7y-sJ-FeH">
+                            <rect key="frame" x="133" y="175" width="1" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.30162584459459457" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="boxView" destination="vQR-ja-OML" id="fzR-dz-ozR"/>
+                <outlet property="datePicker" destination="5hZ-wW-xD1" id="K18-mh-hfZ"/>
+                <outlet property="deleteBtn" destination="7ZY-x4-cyt" id="hqi-JD-FXg"/>
+                <outlet property="setBtn" destination="wzj-0z-JYc" id="LNY-UA-pvO"/>
+            </connections>
+            <point key="canvasLocation" x="535" y="374"/>
+        </view>
+    </objects>
+</document>
