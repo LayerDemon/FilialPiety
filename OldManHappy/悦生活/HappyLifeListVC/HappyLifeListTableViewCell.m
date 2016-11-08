@@ -17,7 +17,7 @@
         _userImageView = ({
             UIImageView * imageView = [[UIImageView alloc] init];
             imageView.clipsToBounds = YES;
-            imageView.contentMode = UIViewContentModeScaleAspectFit;
+            imageView.contentMode = UIViewContentModeScaleAspectFill;
             [self.contentView addSubview:imageView];
             imageView;
         });

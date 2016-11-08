@@ -7,8 +7,13 @@
 //
 
 #import "MySelfViewController.h"
+#import "UserInfoViewController.h"
+#import "AboutUSViewController.h"
+
+#import "LoginViewController.h"
 
 #define FamilyBut_TAG 400
+
 @interface MySelfViewController ()
 
 @property (strong, nonatomic) UIImageView           * topBGImageView;
@@ -113,6 +118,7 @@
     
     _userNameLabel = ({
         UILabel * label = [[UILabel alloc] init];
+        label.text = @"老有所乐";
         label.textAlignment = NSTextAlignmentCenter;
         label.textColor = [UIColor whiteColor];
         label.font = [UIFont boldSystemFontOfSize:17];
@@ -128,6 +134,7 @@
     _addressLabel = ({
         UILabel * label = [[UILabel alloc] init];
         label.textColor = [UIColor whiteColor];
+        label.text = @"阳光社区";
         label.font = [UIFont systemFontOfSize:11];
         [_topBGImageView addSubview:label];
         label;
@@ -141,6 +148,7 @@
     
     _mottoLabel = ({
         UILabel * label = [[UILabel alloc] init];
+        label.text = @"凡事都往好处想，越活越年轻！！";
         label.textColor = [UIColor whiteColor];
         label.font = [UIFont systemFontOfSize:14];
         label.textAlignment = NSTextAlignmentCenter;
@@ -155,7 +163,7 @@
         make.height.equalTo(25);
     }];
     
-    NSArray * titleArray = [NSArray arrayWithObjects:@"我的帐号",@"系统设置",@"中心简介", nil];
+    NSArray * titleArray = [NSArray arrayWithObjects:@"我的帐号",@"系统设置",@"中心简介",@"退出登录", nil];
     
     NSInteger button_H  = 60;
     
@@ -211,7 +219,7 @@
 #pragma mark -- gesture
 - (void)changUserInfoTapGesture:(UITapGestureRecognizer *)gesture
 {
-
+   
 }
 
 
@@ -220,26 +228,24 @@
 {
     NSInteger index = sender.tag - FamilyBut_TAG;
     
-    switch (index) {
-        case 0:
-        {
-            
-        }
-            break;
-        case 1:
-        {
-           
-        }
-            break;
-        case 2:
-        {
-          
-        }
-            break;
-            
-        default:
-            break;
+    if (index == 2) {
+        AboutUSViewController * aboutVC = [[AboutUSViewController alloc] init];
+        [self.navigationController pushViewController:aboutVC animated:YES];
+        return;
     }
+    
+    if (index ==3) {
+        LoginViewController * loginVC = [[LoginViewController alloc] init];
+        UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
+        [self presentViewController:nav animated:YES completion:nil];
+        return;
+    }
+    
+    NSArray * titleArray = [NSArray arrayWithObjects:@"个人中心",@"系统设置",@"中心简介", nil];
+    
+    UserInfoViewController * cleanVC = [[UserInfoViewController alloc] initWithTitle:titleArray[index]];
+    [self.navigationController pushViewController:cleanVC animated:YES];
+
 }
 
 @end
