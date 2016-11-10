@@ -66,7 +66,7 @@
     [infoNav.navigationBar setBackgroundImage:[[UIImage alloc]init]
                                 forBarMetrics:UIBarMetricsDefault];
     infoNav.navigationBar.shadowImage = [[UIImage alloc] init];
-    infoNav.tabBarItem.title = @"老友圈";
+    infoNav.tabBarItem.title = @"购健康";
     infoNav.tabBarItem.image = [UIImage imageNamed:@"活动"];
     
     
@@ -79,7 +79,7 @@
     personalNav.navigationBar.titleTextAttributes = dict;
     
     UITabBarController * tabVC = [[UITabBarController alloc] init];
-    tabVC.viewControllers = @[homeNav,checkNav,infoNav,personalNav];
+    tabVC.viewControllers = @[checkNav,homeNav,infoNav,personalNav];
     tabVC.tabBar.tintColor = ITEM_SELECT_COLOR;
     
     self.window.rootViewController = tabVC;

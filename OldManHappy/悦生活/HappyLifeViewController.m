@@ -59,18 +59,18 @@
     topScrollView.backgroundColor = [UIColor blueColor];
     [self.view addSubview:topScrollView];
     
-    //线上商城
-    UIView * mallOnLineView = [self createTypeViewWithTitle:@"线上商城" detail:@"低价，促销，抢购" buttonTitleArray:@[@"保健器材",@"营养套餐",@"有机蔬菜",@"家电厨具",@"日常用品"] baseTag:BUTTON_TAG];
-    
-    [mallOnLineView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(@150);
-    }];
-    
+//    //线上商城
+//    UIView * mallOnLineView = [self createTypeViewWithTitle:@"线上商城" detail:@"低价，促销，抢购" buttonTitleArray:@[@"保健器材",@"营养套餐",@"有机蔬菜",@"家电厨具",@"日常用品"] baseTag:BUTTON_TAG];
+//    
+//    [mallOnLineView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.equalTo(@150);
+//    }];
+//    
     //家政服务
     UIView * familySericeView = [self createTypeViewWithTitle:@"家政服务" detail:@"" buttonTitleArray:@[@"维修服务",@"清洁服务",@"保养服务",@"陪伴服务"] baseTag:BUTTON_TAG + 100];
     
     [familySericeView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(mallOnLineView.bottom).offset(@10);
+        make.top.equalTo(@150);
     }];
     
     //医疗健康
@@ -94,7 +94,7 @@
         make.top.equalTo(planView.bottom).offset(@10);
     }];
     
-    ((UIScrollView *)self.view).contentSize = CGSizeMake(NOW_SCR_W, 180 * 5 + 150);
+    ((UIScrollView *)self.view).contentSize = CGSizeMake(NOW_SCR_W, 180 * 4 + 150);
 }
 
 
@@ -181,14 +181,14 @@
     switch (type) {
         case 0:
         {
-            if (index == 0) {
-                HappyLifeListViewController * happyLifeVC = [[HappyLifeListViewController alloc] initWithTitle:@"健身器材"];
-                [self.navigationController pushViewController:happyLifeVC animated:YES];
-            }else{
-                NSArray * titleArray = @[@"营养套餐",@"有机蔬菜",@"家电厨具",@"日常用品"];
-                CleanDetailViewController * cleanVC = [[CleanDetailViewController alloc] initWithTitle:titleArray[index - 1]];
-                [self.navigationController pushViewController:cleanVC animated:YES];
-            }
+//            if (index == 0) {
+//                HappyLifeListViewController * happyLifeVC = [[HappyLifeListViewController alloc] initWithTitle:@"健身器材"];
+//                [self.navigationController pushViewController:happyLifeVC animated:YES];
+//            }else{
+//                NSArray * titleArray = @[@"营养套餐",@"有机蔬菜",@"家电厨具",@"日常用品"];
+//                CleanDetailViewController * cleanVC = [[CleanDetailViewController alloc] initWithTitle:titleArray[index - 1]];
+//                [self.navigationController pushViewController:cleanVC animated:YES];
+//            }
         }
             break;
         case 1:

@@ -64,11 +64,11 @@
     tabbar.tabItemNormalFontSize = FLEXIBLE_NUM(14);
     tabbar.trackColor = [UIColor colorWithRed:51/255.0 green:178/255.0 blue:114/255.0 alpha:1];
     
-    NSString *systemStr = @"全部，关注，文学，设计，创业，历史，漫画，推理，小说，心理，产品，营销，励志，青春，社会，经典，玄幻";
+    NSString *systemStr = @"保健器材，营养套餐，有机素菜，家电器具，日常用品";
     NSArray *itemTitles = [systemStr componentsSeparatedByString:@"，"];
     self.itemArray = [NSMutableArray array];
     for (int i=0; i<itemTitles.count; i++) {
-        DLScrollTabbarItem *item= [DLScrollTabbarItem itemWithTitle:itemTitles[i] width:FLEXIBLE_NUM(50)];
+        DLScrollTabbarItem *item= [DLScrollTabbarItem itemWithTitle:itemTitles[i] width:FLEXIBLE_NUM(80)];
         [self.itemArray addObject:item];
     }
     tabbar.tabbarItems = self.itemArray;
@@ -84,7 +84,7 @@
 
 - (void)loadNavBarView
 {
-    [self setIndicatorTitle:@"老友圈"];
+    [self setIndicatorTitle:@"购健康"];
 //    self.navigationItem.titleView = self.slideView.tabbar;
 }
 
