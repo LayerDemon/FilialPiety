@@ -37,7 +37,6 @@ static NSString * identify = @"Cell";
     self = [super init];
     if (self) {
         self.navigationItem.title = title;
-        self.hidesBottomBarWhenPushed = YES;
     }
     return self;
 }
@@ -66,7 +65,8 @@ static NSString * identify = @"Cell";
     });
 
     [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.right.bottom.equalTo(@0);
+        make.left.top.right.equalTo(@0);
+        make.bottom.equalTo(@-49);
     }];
 }
 

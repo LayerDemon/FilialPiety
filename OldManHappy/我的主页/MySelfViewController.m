@@ -11,6 +11,7 @@
 #import "AboutUSViewController.h"
 
 #import "LoginViewController.h"
+#import "CleanDetailViewController.h"
 
 #define FamilyBut_TAG 400
 
@@ -163,7 +164,7 @@
         make.height.equalTo(25);
     }];
     
-    NSArray * titleArray = [NSArray arrayWithObjects:@"我的帐号",@"系统设置",@"中心简介",@"退出登录", nil];
+    NSArray * titleArray = [NSArray arrayWithObjects:@"购物车",@"我的帐号",@"系统设置",@"中心简介",@"退出登录", nil];
     
     NSInteger button_H  = 60;
     
@@ -180,6 +181,20 @@
             make.height.equalTo(@(button_H));
         }];
         
+        if (i == 0) {
+            
+        }else if(i > 0 && i < 3) {
+            [button mas_updateConstraints:^(MASConstraintMaker *make) {
+                make.top.equalTo(_topBGImageView.bottom).offset(button_H * i + 10);
+            }];
+        }else if (i < 5){
+            [button mas_updateConstraints:^(MASConstraintMaker *make) {
+                make.top.equalTo(_topBGImageView.bottom).offset(button_H * i + 20);
+            }];
+        }else{
+        
+        }
+        
         UILabel * titleLabel = [UILabel createLabelWithText:titleArray[i] font:16 subView:self.view];
         [button addSubview:titleLabel];
         
@@ -194,7 +209,7 @@
         rightImageView.image = [UIImage imageNamed:@"右箭头"];
         [button addSubview:rightImageView];
         [rightImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.size.equalTo(CGSizeMake(10, 17));
+            make.size.equalTo(CGSizeMake(15, 15));
             make.centerY.equalTo(button);
             make.right.equalTo(@-15);
         }];
@@ -228,22 +243,28 @@
 {
     NSInteger index = sender.tag - FamilyBut_TAG;
     
-    if (index == 2) {
+    if (index == 0) {
+        CleanDetailViewController * cleanVC = [[CleanDetailViewController alloc] initWithTitle:@"购物车"];
+        [self.navigationController pushViewController:cleanVC animated:YES];
+        return;
+    }
+    
+    if (index == 3) {
         AboutUSViewController * aboutVC = [[AboutUSViewController alloc] init];
         [self.navigationController pushViewController:aboutVC animated:YES];
         return;
     }
     
-    if (index ==3) {
+    if (index == 4) {
         LoginViewController * loginVC = [[LoginViewController alloc] init];
         UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
         [self presentViewController:nav animated:YES completion:nil];
         return;
     }
     
-    NSArray * titleArray = [NSArray arrayWithObjects:@"个人中心",@"系统设置",@"中心简介", nil];
+    NSArray * titleArray = [NSArray arrayWithObjects:@"个人中心",@"系统设置", nil];
     
-    UserInfoViewController * cleanVC = [[UserInfoViewController alloc] initWithTitle:titleArray[index]];
+    UserInfoViewController * cleanVC = [[UserInfoViewController alloc] initWithTitle:titleArray[index-1]];
     [self.navigationController pushViewController:cleanVC animated:YES];
 
 }

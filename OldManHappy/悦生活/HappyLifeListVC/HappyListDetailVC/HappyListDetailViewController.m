@@ -28,6 +28,7 @@
     if (self) {
         _selectIndex = index;
         self.navigationItem.title = @"商品详情";
+        self.hidesBottomBarWhenPushed = YES;
     }
     return self;
 }

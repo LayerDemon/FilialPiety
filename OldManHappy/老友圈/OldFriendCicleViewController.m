@@ -13,6 +13,10 @@
 
 #import "OfcLiveViewController.h"
 
+#import "HappyLifeListViewController.h"
+#import "OldFriendDetailViewController.h"
+#import "CleanDetailViewController.h"
+
 @interface OldFriendCicleViewController ()<DLCustomSlideViewDelegate>
 
 @property (strong, nonatomic) DLCustomSlideView *slideView;
@@ -80,12 +84,34 @@
     self.slideView.baseViewController = self;
     [self.slideView setup];
     self.slideView.selectedIndex = 0;
+    
+    NSInteger button_w = 60;
+    UIButton * carButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    carButton.backgroundColor = THEMECOLOR_TINT;
+    carButton.layer.cornerRadius = button_w/2;
+    carButton.clipsToBounds = YES;
+    [carButton setImage:[UIImage imageNamed:@"购物车"] forState:UIControlStateNormal];
+    [carButton addTarget:self action:@selector(carButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:carButton];
+    
+    [carButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.equalTo(@(button_w));
+        make.bottom.equalTo(@-60);
+        make.right.equalTo(@-10);
+    }];
 }
 
 - (void)loadNavBarView
 {
     [self setIndicatorTitle:@"购健康"];
 //    self.navigationItem.titleView = self.slideView.tabbar;
+}
+
+#pragma mark -- button pressed
+- (void)carButtonPressed:(UIButton *)sender
+{
+    CleanDetailViewController * cleanVC = [[CleanDetailViewController alloc] initWithTitle:@"购物车"];
+    [self.navigationController pushViewController:cleanVC animated:YES];
 }
 
 #pragma mark - 各种Getter
@@ -105,7 +131,15 @@
 }
 
 - (UIViewController *)DLCustomSlideView:(DLCustomSlideView *)sender controllerAt:(NSInteger)index{
-    return [[OfcLiveViewController alloc]init];
+    if (index == 0) {
+        HappyLifeListViewController * happyLifeVC = [[HappyLifeListViewController alloc] initWithTitle:@"健身器材"];
+        return happyLifeVC;
+    }else{
+        NSArray * titleArray = @[@"营养套餐",@"有机蔬菜",@"家电厨具",@"日常用品"];
+        OldFriendDetailViewController * cleanVC = [[OldFriendDetailViewController alloc] initWithTitle:titleArray[index-1]];
+        return cleanVC;
+    }
+
 }
 
 #pragma mark - 按钮方法
