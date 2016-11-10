@@ -7,44 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D2FC46F1DCF67B5001BCAF3 /* 代理跑腿详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D2FC46D1DCF67B5001BCAF3 /* 代理跑腿详情.PNG */; };
-		2D2FC4701DCF67B5001BCAF3 /* 代理购物详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D2FC46E1DCF67B5001BCAF3 /* 代理购物详情.PNG */; };
 		2D3D1D971DCF48F300747861 /* HappyLifeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D1D961DCF48F300747861 /* HappyLifeListViewController.m */; };
 		2D3D1D9A1DCF4A6800747861 /* HappyLifeListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D1D991DCF4A6800747861 /* HappyLifeListTableViewCell.m */; };
-		2D3D1DA41DCF4EE600747861 /* 健身器材1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1D9C1DCF4EE600747861 /* 健身器材1.png */; };
-		2D3D1DA51DCF4EE600747861 /* 健身器材1详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1D9D1DCF4EE600747861 /* 健身器材1详情.PNG */; };
-		2D3D1DA61DCF4EE600747861 /* 健身器材2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1D9E1DCF4EE600747861 /* 健身器材2.png */; };
-		2D3D1DA71DCF4EE600747861 /* 健身器材2详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1D9F1DCF4EE600747861 /* 健身器材2详情.PNG */; };
-		2D3D1DA81DCF4EE600747861 /* 健身器材3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DA01DCF4EE600747861 /* 健身器材3.png */; };
-		2D3D1DA91DCF4EE600747861 /* 健身器材3详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DA11DCF4EE600747861 /* 健身器材3详情.PNG */; };
-		2D3D1DAA1DCF4EE600747861 /* 健身器材4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DA21DCF4EE600747861 /* 健身器材4.png */; };
-		2D3D1DAB1DCF4EE600747861 /* 健身器材4详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DA31DCF4EE600747861 /* 健身器材4详情.PNG */; };
 		2D3D1DAF1DCF4F1500747861 /* HappyListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D1DAE1DCF4F1500747861 /* HappyListDetailViewController.m */; };
-		2D3D1DB21DCF564500747861 /* 清洁服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB11DCF564500747861 /* 清洁服务详情.PNG */; };
 		2D3D1DB61DCF56B400747861 /* CleanDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB51DCF56B400747861 /* CleanDetailViewController.m */; };
-		2D3D1DBA1DCF5C1A00747861 /* 陪伴服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB71DCF5C1A00747861 /* 陪伴服务详情.PNG */; };
-		2D3D1DBB1DCF5C1A00747861 /* 保养服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB81DCF5C1A00747861 /* 保养服务详情.PNG */; };
-		2D3D1DBC1DCF5C1A00747861 /* 维修服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D1DB91DCF5C1A00747861 /* 维修服务详情.PNG */; };
 		2D8A8E431DD0B2DC008D32AA /* 个人中心详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A8E421DD0B2DC008D32AA /* 个人中心详情.png */; };
 		2D8A8E461DD0B35C008D32AA /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A8E451DD0B35C008D32AA /* UserInfoViewController.m */; };
 		2D8A8E481DD0B4EB008D32AA /* 系统设置详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A8E471DD0B4EB008D32AA /* 系统设置详情.png */; };
 		2D8A8E4B1DD0B614008D32AA /* AboutUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A8E4A1DD0B614008D32AA /* AboutUSViewController.m */; };
 		2D8A8E4D1DD0B899008D32AA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A8E4C1DD0B899008D32AA /* icon.png */; };
 		2D8A8E501DD0BD94008D32AA /* AppointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A8E4F1DD0BD94008D32AA /* AppointViewController.m */; };
-		2D8A8E521DD0C029008D32AA /* 预约清洁服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A8E511DD0C029008D32AA /* 预约清洁服务详情.PNG */; };
 		2D8A8E551DD0C612008D32AA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A8E541DD0C612008D32AA /* LoginViewController.m */; };
 		2D8A8E591DD0CDB1008D32AA /* NewsScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A8E581DD0CDB1008D32AA /* NewsScrollView.m */; };
-		2D8A8E5E1DD0CF1F008D32AA /* 广告1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A8E5B1DD0CF1F008D32AA /* 广告1.PNG */; };
-		2D8A8E5F1DD0CF1F008D32AA /* 广告2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A8E5C1DD0CF1F008D32AA /* 广告2.PNG */; };
-		2D8A8E601DD0CF1F008D32AA /* 广告3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A8E5D1DD0CF1F008D32AA /* 广告3.PNG */; };
-		2DACB9C31DCF6ADA00242D75 /* 门店理疗详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C01DCF6ADA00242D75 /* 门店理疗详情.PNG */; };
-		2DACB9C41DCF6ADA00242D75 /* 专家咨询详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C11DCF6ADA00242D75 /* 专家咨询详情.PNG */; };
-		2DACB9C51DCF6ADA00242D75 /* 特殊护理详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C21DCF6ADA00242D75 /* 特殊护理详情.PNG */; };
-		2DACB9C71DCF6C8500242D75 /* 历史营养计划详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C61DCF6C8500242D75 /* 历史营养计划详情.PNG */; };
-		2DACB9CC1DCF712200242D75 /* 家电厨具详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C81DCF712200242D75 /* 家电厨具详情.PNG */; };
-		2DACB9CD1DCF712200242D75 /* 日常用品详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9C91DCF712200242D75 /* 日常用品详情.PNG */; };
-		2DACB9CE1DCF712200242D75 /* 有机蔬菜详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9CA1DCF712200242D75 /* 有机蔬菜详情.PNG */; };
-		2DACB9CF1DCF712200242D75 /* 营养套餐详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DACB9CB1DCF712200242D75 /* 营养套餐详情.PNG */; };
 		2DB4C51B1DCF84EE00DFEF18 /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DB4C51A1DCF84EE00DFEF18 /* 头像.jpg */; };
 		2DCF19E51DCF142400A4F243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF19E41DCF142400A4F243 /* main.m */; };
 		2DCF19E81DCF142400A4F243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF19E71DCF142400A4F243 /* AppDelegate.m */; };
@@ -200,6 +174,32 @@
 		8C345CAA1DD0883900AC4496 /* DLTabedSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C345CA21DD0883900AC4496 /* DLTabedSlideView.m */; };
 		8C345CAB1DD0883900AC4496 /* DLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C345CA41DD0883900AC4496 /* DLUtility.m */; };
 		8C345CAF1DD08DF700AC4496 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C345CAE1DD08DF700AC4496 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8C6F3BC41DD18F22006338C4 /* 广告1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BC11DD18F22006338C4 /* 广告1.png */; };
+		8C6F3BC51DD18F22006338C4 /* 广告2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BC21DD18F22006338C4 /* 广告2.png */; };
+		8C6F3BC61DD18F22006338C4 /* 广告3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BC31DD18F22006338C4 /* 广告3.png */; };
+		8C6F3BC81DD1958A006338C4 /* 预约清洁服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BC71DD1958A006338C4 /* 预约清洁服务详情.png */; };
+		8C6F3BCC1DD195B3006338C4 /* 门店理疗详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BC91DD195B3006338C4 /* 门店理疗详情.png */; };
+		8C6F3BCD1DD195B3006338C4 /* 特殊护理详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BCA1DD195B3006338C4 /* 特殊护理详情.png */; };
+		8C6F3BCE1DD195B3006338C4 /* 专家咨询详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BCB1DD195B3006338C4 /* 专家咨询详情.png */; };
+		8C6F3BD11DD195D2006338C4 /* 代理购物详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BCF1DD195D2006338C4 /* 代理购物详情.png */; };
+		8C6F3BD21DD195D2006338C4 /* 代理跑腿详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BD01DD195D2006338C4 /* 代理跑腿详情.png */; };
+		8C6F3BD41DD195E6006338C4 /* 历史营养计划详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BD31DD195E6006338C4 /* 历史营养计划详情.png */; };
+		8C6F3BE11DD1962E006338C4 /* 家电厨具详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BD51DD1962E006338C4 /* 家电厨具详情.png */; };
+		8C6F3BE21DD1962E006338C4 /* 健身器材1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BD61DD1962E006338C4 /* 健身器材1.png */; };
+		8C6F3BE31DD1962E006338C4 /* 健身器材1详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BD71DD1962E006338C4 /* 健身器材1详情.png */; };
+		8C6F3BE41DD1962E006338C4 /* 健身器材2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BD81DD1962E006338C4 /* 健身器材2.png */; };
+		8C6F3BE51DD1962E006338C4 /* 健身器材2详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BD91DD1962E006338C4 /* 健身器材2详情.png */; };
+		8C6F3BE61DD1962E006338C4 /* 健身器材3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BDA1DD1962E006338C4 /* 健身器材3.png */; };
+		8C6F3BE71DD1962E006338C4 /* 健身器材3详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BDB1DD1962E006338C4 /* 健身器材3详情.png */; };
+		8C6F3BE81DD1962E006338C4 /* 健身器材4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BDC1DD1962E006338C4 /* 健身器材4.png */; };
+		8C6F3BE91DD1962E006338C4 /* 健身器材4详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BDD1DD1962E006338C4 /* 健身器材4详情.png */; };
+		8C6F3BEA1DD1962E006338C4 /* 日常用品详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BDE1DD1962E006338C4 /* 日常用品详情.png */; };
+		8C6F3BEB1DD1962E006338C4 /* 营养套餐详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BDF1DD1962E006338C4 /* 营养套餐详情.png */; };
+		8C6F3BEC1DD1962E006338C4 /* 有机蔬菜详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BE01DD1962E006338C4 /* 有机蔬菜详情.png */; };
+		8C6F3BF11DD1967F006338C4 /* 保养服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BED1DD1967F006338C4 /* 保养服务详情.png */; };
+		8C6F3BF21DD1967F006338C4 /* 陪伴服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BEE1DD1967F006338C4 /* 陪伴服务详情.png */; };
+		8C6F3BF31DD1967F006338C4 /* 清洁服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BEF1DD1967F006338C4 /* 清洁服务详情.png */; };
+		8C6F3BF41DD1967F006338C4 /* 维修服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BF01DD1967F006338C4 /* 维修服务详情.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,28 +220,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D2FC46D1DCF67B5001BCAF3 /* 代理跑腿详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理跑腿详情.PNG"; sourceTree = "<group>"; };
-		2D2FC46E1DCF67B5001BCAF3 /* 代理购物详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理购物详情.PNG"; sourceTree = "<group>"; };
 		2D3D1D951DCF48F300747861 /* HappyLifeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyLifeListViewController.h; sourceTree = "<group>"; };
 		2D3D1D961DCF48F300747861 /* HappyLifeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyLifeListViewController.m; sourceTree = "<group>"; };
 		2D3D1D981DCF4A6800747861 /* HappyLifeListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyLifeListTableViewCell.h; sourceTree = "<group>"; };
 		2D3D1D991DCF4A6800747861 /* HappyLifeListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyLifeListTableViewCell.m; sourceTree = "<group>"; };
-		2D3D1D9C1DCF4EE600747861 /* 健身器材1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材1.png"; sourceTree = "<group>"; };
-		2D3D1D9D1DCF4EE600747861 /* 健身器材1详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材1详情.PNG"; sourceTree = "<group>"; };
-		2D3D1D9E1DCF4EE600747861 /* 健身器材2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材2.png"; sourceTree = "<group>"; };
-		2D3D1D9F1DCF4EE600747861 /* 健身器材2详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材2详情.PNG"; sourceTree = "<group>"; };
-		2D3D1DA01DCF4EE600747861 /* 健身器材3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材3.png"; sourceTree = "<group>"; };
-		2D3D1DA11DCF4EE600747861 /* 健身器材3详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材3详情.PNG"; sourceTree = "<group>"; };
-		2D3D1DA21DCF4EE600747861 /* 健身器材4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材4.png"; sourceTree = "<group>"; };
-		2D3D1DA31DCF4EE600747861 /* 健身器材4详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材4详情.PNG"; sourceTree = "<group>"; };
 		2D3D1DAD1DCF4F1500747861 /* HappyListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyListDetailViewController.h; sourceTree = "<group>"; };
 		2D3D1DAE1DCF4F1500747861 /* HappyListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyListDetailViewController.m; sourceTree = "<group>"; };
-		2D3D1DB11DCF564500747861 /* 清洁服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清洁服务详情.PNG"; sourceTree = "<group>"; };
 		2D3D1DB41DCF56B400747861 /* CleanDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleanDetailViewController.h; sourceTree = "<group>"; };
 		2D3D1DB51DCF56B400747861 /* CleanDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleanDetailViewController.m; sourceTree = "<group>"; };
-		2D3D1DB71DCF5C1A00747861 /* 陪伴服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陪伴服务详情.PNG"; sourceTree = "<group>"; };
-		2D3D1DB81DCF5C1A00747861 /* 保养服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保养服务详情.PNG"; sourceTree = "<group>"; };
-		2D3D1DB91DCF5C1A00747861 /* 维修服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "维修服务详情.PNG"; sourceTree = "<group>"; };
 		2D8A8E421DD0B2DC008D32AA /* 个人中心详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心详情.png"; sourceTree = "<group>"; };
 		2D8A8E441DD0B35C008D32AA /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
 		2D8A8E451DD0B35C008D32AA /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
@@ -251,22 +237,10 @@
 		2D8A8E4C1DD0B899008D32AA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		2D8A8E4E1DD0BD94008D32AA /* AppointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointViewController.h; sourceTree = "<group>"; };
 		2D8A8E4F1DD0BD94008D32AA /* AppointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointViewController.m; sourceTree = "<group>"; };
-		2D8A8E511DD0C029008D32AA /* 预约清洁服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预约清洁服务详情.PNG"; sourceTree = "<group>"; };
 		2D8A8E531DD0C612008D32AA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		2D8A8E541DD0C612008D32AA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2D8A8E571DD0CDB1008D32AA /* NewsScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsScrollView.h; sourceTree = "<group>"; };
 		2D8A8E581DD0CDB1008D32AA /* NewsScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsScrollView.m; sourceTree = "<group>"; };
-		2D8A8E5B1DD0CF1F008D32AA /* 广告1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广告1.PNG"; sourceTree = "<group>"; };
-		2D8A8E5C1DD0CF1F008D32AA /* 广告2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广告2.PNG"; sourceTree = "<group>"; };
-		2D8A8E5D1DD0CF1F008D32AA /* 广告3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广告3.PNG"; sourceTree = "<group>"; };
-		2DACB9C01DCF6ADA00242D75 /* 门店理疗详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "门店理疗详情.PNG"; sourceTree = "<group>"; };
-		2DACB9C11DCF6ADA00242D75 /* 专家咨询详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "专家咨询详情.PNG"; sourceTree = "<group>"; };
-		2DACB9C21DCF6ADA00242D75 /* 特殊护理详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "特殊护理详情.PNG"; sourceTree = "<group>"; };
-		2DACB9C61DCF6C8500242D75 /* 历史营养计划详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "历史营养计划详情.PNG"; sourceTree = "<group>"; };
-		2DACB9C81DCF712200242D75 /* 家电厨具详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "家电厨具详情.PNG"; sourceTree = "<group>"; };
-		2DACB9C91DCF712200242D75 /* 日常用品详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日常用品详情.PNG"; sourceTree = "<group>"; };
-		2DACB9CA1DCF712200242D75 /* 有机蔬菜详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜详情.PNG"; sourceTree = "<group>"; };
-		2DACB9CB1DCF712200242D75 /* 营养套餐详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营养套餐详情.PNG"; sourceTree = "<group>"; };
 		2DB4C51A1DCF84EE00DFEF18 /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
 		2DCF19E01DCF142400A4F243 /* OldManHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OldManHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCF19E41DCF142400A4F243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -527,6 +501,32 @@
 		8C345CA41DD0883900AC4496 /* DLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUtility.m; sourceTree = "<group>"; };
 		8C345CAD1DD08DF700AC4496 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		8C345CAE1DD08DF700AC4496 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		8C6F3BC11DD18F22006338C4 /* 广告1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广告1.png"; sourceTree = "<group>"; };
+		8C6F3BC21DD18F22006338C4 /* 广告2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广告2.png"; sourceTree = "<group>"; };
+		8C6F3BC31DD18F22006338C4 /* 广告3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广告3.png"; sourceTree = "<group>"; };
+		8C6F3BC71DD1958A006338C4 /* 预约清洁服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预约清洁服务详情.png"; sourceTree = "<group>"; };
+		8C6F3BC91DD195B3006338C4 /* 门店理疗详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "门店理疗详情.png"; sourceTree = "<group>"; };
+		8C6F3BCA1DD195B3006338C4 /* 特殊护理详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "特殊护理详情.png"; sourceTree = "<group>"; };
+		8C6F3BCB1DD195B3006338C4 /* 专家咨询详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "专家咨询详情.png"; sourceTree = "<group>"; };
+		8C6F3BCF1DD195D2006338C4 /* 代理购物详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理购物详情.png"; sourceTree = "<group>"; };
+		8C6F3BD01DD195D2006338C4 /* 代理跑腿详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理跑腿详情.png"; sourceTree = "<group>"; };
+		8C6F3BD31DD195E6006338C4 /* 历史营养计划详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "历史营养计划详情.png"; sourceTree = "<group>"; };
+		8C6F3BD51DD1962E006338C4 /* 家电厨具详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "家电厨具详情.png"; sourceTree = "<group>"; };
+		8C6F3BD61DD1962E006338C4 /* 健身器材1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材1.png"; sourceTree = "<group>"; };
+		8C6F3BD71DD1962E006338C4 /* 健身器材1详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材1详情.png"; sourceTree = "<group>"; };
+		8C6F3BD81DD1962E006338C4 /* 健身器材2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材2.png"; sourceTree = "<group>"; };
+		8C6F3BD91DD1962E006338C4 /* 健身器材2详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材2详情.png"; sourceTree = "<group>"; };
+		8C6F3BDA1DD1962E006338C4 /* 健身器材3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材3.png"; sourceTree = "<group>"; };
+		8C6F3BDB1DD1962E006338C4 /* 健身器材3详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材3详情.png"; sourceTree = "<group>"; };
+		8C6F3BDC1DD1962E006338C4 /* 健身器材4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材4.png"; sourceTree = "<group>"; };
+		8C6F3BDD1DD1962E006338C4 /* 健身器材4详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健身器材4详情.png"; sourceTree = "<group>"; };
+		8C6F3BDE1DD1962E006338C4 /* 日常用品详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日常用品详情.png"; sourceTree = "<group>"; };
+		8C6F3BDF1DD1962E006338C4 /* 营养套餐详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营养套餐详情.png"; sourceTree = "<group>"; };
+		8C6F3BE01DD1962E006338C4 /* 有机蔬菜详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜详情.png"; sourceTree = "<group>"; };
+		8C6F3BED1DD1967F006338C4 /* 保养服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保养服务详情.png"; sourceTree = "<group>"; };
+		8C6F3BEE1DD1967F006338C4 /* 陪伴服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陪伴服务详情.png"; sourceTree = "<group>"; };
+		8C6F3BEF1DD1967F006338C4 /* 清洁服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清洁服务详情.png"; sourceTree = "<group>"; };
+		8C6F3BF01DD1967F006338C4 /* 维修服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "维修服务详情.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -569,18 +569,18 @@
 		2D3D1D9B1DCF4EE600747861 /* 健身器材 */ = {
 			isa = PBXGroup;
 			children = (
-				2DACB9C81DCF712200242D75 /* 家电厨具详情.PNG */,
-				2DACB9C91DCF712200242D75 /* 日常用品详情.PNG */,
-				2DACB9CA1DCF712200242D75 /* 有机蔬菜详情.PNG */,
-				2DACB9CB1DCF712200242D75 /* 营养套餐详情.PNG */,
-				2D3D1D9C1DCF4EE600747861 /* 健身器材1.png */,
-				2D3D1D9D1DCF4EE600747861 /* 健身器材1详情.PNG */,
-				2D3D1D9E1DCF4EE600747861 /* 健身器材2.png */,
-				2D3D1D9F1DCF4EE600747861 /* 健身器材2详情.PNG */,
-				2D3D1DA01DCF4EE600747861 /* 健身器材3.png */,
-				2D3D1DA11DCF4EE600747861 /* 健身器材3详情.PNG */,
-				2D3D1DA21DCF4EE600747861 /* 健身器材4.png */,
-				2D3D1DA31DCF4EE600747861 /* 健身器材4详情.PNG */,
+				8C6F3BD51DD1962E006338C4 /* 家电厨具详情.png */,
+				8C6F3BD61DD1962E006338C4 /* 健身器材1.png */,
+				8C6F3BD71DD1962E006338C4 /* 健身器材1详情.png */,
+				8C6F3BD81DD1962E006338C4 /* 健身器材2.png */,
+				8C6F3BD91DD1962E006338C4 /* 健身器材2详情.png */,
+				8C6F3BDA1DD1962E006338C4 /* 健身器材3.png */,
+				8C6F3BDB1DD1962E006338C4 /* 健身器材3详情.png */,
+				8C6F3BDC1DD1962E006338C4 /* 健身器材4.png */,
+				8C6F3BDD1DD1962E006338C4 /* 健身器材4详情.png */,
+				8C6F3BDE1DD1962E006338C4 /* 日常用品详情.png */,
+				8C6F3BDF1DD1962E006338C4 /* 营养套餐详情.png */,
+				8C6F3BE01DD1962E006338C4 /* 有机蔬菜详情.png */,
 			);
 			path = "健身器材";
 			sourceTree = "<group>";
@@ -597,10 +597,10 @@
 		2D3D1DB01DCF564500747861 /* 家政服务 */ = {
 			isa = PBXGroup;
 			children = (
-				2D3D1DB71DCF5C1A00747861 /* 陪伴服务详情.PNG */,
-				2D3D1DB81DCF5C1A00747861 /* 保养服务详情.PNG */,
-				2D3D1DB91DCF5C1A00747861 /* 维修服务详情.PNG */,
-				2D3D1DB11DCF564500747861 /* 清洁服务详情.PNG */,
+				8C6F3BED1DD1967F006338C4 /* 保养服务详情.png */,
+				8C6F3BEE1DD1967F006338C4 /* 陪伴服务详情.png */,
+				8C6F3BEF1DD1967F006338C4 /* 清洁服务详情.png */,
+				8C6F3BF01DD1967F006338C4 /* 维修服务详情.png */,
 			);
 			path = "家政服务";
 			sourceTree = "<group>";
@@ -628,9 +628,9 @@
 		2D8A8E5A1DD0CF1F008D32AA /* 广告 */ = {
 			isa = PBXGroup;
 			children = (
-				2D8A8E5B1DD0CF1F008D32AA /* 广告1.PNG */,
-				2D8A8E5C1DD0CF1F008D32AA /* 广告2.PNG */,
-				2D8A8E5D1DD0CF1F008D32AA /* 广告3.PNG */,
+				8C6F3BC11DD18F22006338C4 /* 广告1.png */,
+				8C6F3BC21DD18F22006338C4 /* 广告2.png */,
+				8C6F3BC31DD18F22006338C4 /* 广告3.png */,
 			);
 			path = "广告";
 			sourceTree = "<group>";
@@ -920,7 +920,7 @@
 		2DD45B241DCF3478001B6706 /* 家政服务 */ = {
 			isa = PBXGroup;
 			children = (
-				2D8A8E511DD0C029008D32AA /* 预约清洁服务详情.PNG */,
+				8C6F3BC71DD1958A006338C4 /* 预约清洁服务详情.png */,
 				2D3D1DB01DCF564500747861 /* 家政服务 */,
 				2DD45B251DCF3478001B6706 /* 保养服务.png */,
 				2DD45B261DCF3478001B6706 /* 清洁服务.png */,
@@ -933,9 +933,9 @@
 		2DD45B2D1DCF357F001B6706 /* 医疗健康 */ = {
 			isa = PBXGroup;
 			children = (
-				2DACB9C01DCF6ADA00242D75 /* 门店理疗详情.PNG */,
-				2DACB9C11DCF6ADA00242D75 /* 专家咨询详情.PNG */,
-				2DACB9C21DCF6ADA00242D75 /* 特殊护理详情.PNG */,
+				8C6F3BC91DD195B3006338C4 /* 门店理疗详情.png */,
+				8C6F3BCA1DD195B3006338C4 /* 特殊护理详情.png */,
+				8C6F3BCB1DD195B3006338C4 /* 专家咨询详情.png */,
 				2DD45B2E1DCF357F001B6706 /* 专家咨询.png */,
 				2DD45B2F1DCF357F001B6706 /* 特殊护理.png */,
 				2DD45B301DCF357F001B6706 /* 门店理疗.png */,
@@ -946,7 +946,7 @@
 		2DD45B341DCF365B001B6706 /* 营养计划 */ = {
 			isa = PBXGroup;
 			children = (
-				2DACB9C61DCF6C8500242D75 /* 历史营养计划详情.PNG */,
+				8C6F3BD31DD195E6006338C4 /* 历史营养计划详情.png */,
 				2DD45B351DCF365B001B6706 /* 历史营养计划.png */,
 			);
 			path = "营养计划";
@@ -955,8 +955,8 @@
 		2DD45B361DCF365B001B6706 /* 跑腿服务 */ = {
 			isa = PBXGroup;
 			children = (
-				2D2FC46D1DCF67B5001BCAF3 /* 代理跑腿详情.PNG */,
-				2D2FC46E1DCF67B5001BCAF3 /* 代理购物详情.PNG */,
+				8C6F3BCF1DD195D2006338C4 /* 代理购物详情.png */,
+				8C6F3BD01DD195D2006338C4 /* 代理跑腿详情.png */,
 				2DD45B371DCF365B001B6706 /* 代理购物.png */,
 				2DD45B381DCF365B001B6706 /* 代理跑腿.png */,
 			);
@@ -1375,7 +1375,7 @@
 					2DCF19DF1DCF142300A4F243 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 82H6EU6V96;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2DCF19F81DCF142400A4F243 = {
 						CreatedOnToolsVersion = 8.0;
@@ -1417,37 +1417,39 @@
 				2DD45B231DCF3022001B6706 /* 有机蔬菜.png in Resources */,
 				2D8A8E4D1DD0B899008D32AA /* icon.png in Resources */,
 				2DD45AD01DCF1814001B6706 /* 我的@3x.png in Resources */,
-				2D8A8E601DD0CF1F008D32AA /* 广告3.PNG in Resources */,
-				2D3D1DA51DCF4EE600747861 /* 健身器材1详情.PNG in Resources */,
 				8C14BEE51DD0C6CD0060B75E /* rb_booklist_btn.png in Resources */,
 				8C14BEED1DD0C6CD0060B75E /* rb_tothink_btn.png in Resources */,
-				2DACB9C71DCF6C8500242D75 /* 历史营养计划详情.PNG in Resources */,
+				8C6F3BE21DD1962E006338C4 /* 健身器材1.png in Resources */,
 				8C14BEF41DD0C89E0060B75E /* OtoFooterView.xib in Resources */,
 				2DD45B1F1DCF2EE3001B6706 /* 日常用品.png in Resources */,
-				2D8A8E521DD0C029008D32AA /* 预约清洁服务详情.PNG in Resources */,
+				8C6F3BF11DD1967F006338C4 /* 保养服务详情.png in Resources */,
 				2DD45B201DCF2EE3001B6706 /* 有机蔬菜.png in Resources */,
 				2DCF19F31DCF142400A4F243 /* LaunchScreen.storyboard in Resources */,
-				2D3D1DA41DCF4EE600747861 /* 健身器材1.png in Resources */,
 				8C14BEEB1DD0C6CD0060B75E /* rb_toread_btn.png in Resources */,
-				2D3D1DBC1DCF5C1A00747861 /* 维修服务详情.PNG in Resources */,
 				2DD45B291DCF3478001B6706 /* 保养服务.png in Resources */,
+				8C6F3BE71DD1962E006338C4 /* 健身器材3详情.png in Resources */,
+				8C6F3BEA1DD1962E006338C4 /* 日常用品详情.png in Resources */,
 				8C14BEEF1DD0C6CD0060B75E /* rbjr_failed_icon.png in Resources */,
+				8C6F3BCC1DD195B3006338C4 /* 门店理疗详情.png in Resources */,
 				2DD45B3A1DCF365B001B6706 /* 代理购物.png in Resources */,
+				8C6F3BE11DD1962E006338C4 /* 家电厨具详情.png in Resources */,
+				8C6F3BEB1DD1962E006338C4 /* 营养套餐详情.png in Resources */,
+				8C6F3BF21DD1967F006338C4 /* 陪伴服务详情.png in Resources */,
+				8C6F3BCE1DD195B3006338C4 /* 专家咨询详情.png in Resources */,
 				8C14BE621DD0C05D0060B75E /* TempOfcldBottomView.xib in Resources */,
+				8C6F3BCD1DD195B3006338C4 /* 特殊护理详情.png in Resources */,
 				8C14BEFC1DD0C9C10060B75E /* Info.plist in Resources */,
 				8C14BEF11DD0C6CD0060B75E /* rbjr_success_icon.png in Resources */,
 				8C14BF091DD0CDD70060B75E /* ReadBookSectionView.xib in Resources */,
+				8C6F3BD21DD195D2006338C4 /* 代理跑腿详情.png in Resources */,
 				2DCF19F01DCF142400A4F243 /* Assets.xcassets in Resources */,
 				8C14BED51DD0C6850060B75E /* OtoTopView.xib in Resources */,
 				8C14BEE91DD0C6CD0060B75E /* rb_readplan_btn.png in Resources */,
-				2D3D1DBA1DCF5C1A00747861 /* 陪伴服务详情.PNG in Resources */,
+				8C6F3BEC1DD1962E006338C4 /* 有机蔬菜详情.png in Resources */,
 				2DD45B3B1DCF365B001B6706 /* 代理跑腿.png in Resources */,
-				2DACB9C51DCF6ADA00242D75 /* 特殊护理详情.PNG in Resources */,
 				8C14BEF01DD0C6CD0060B75E /* rbjr_failed_icon@2x.png in Resources */,
 				8C14BE571DD0BAD20060B75E /* 返回按钮@2x.png in Resources */,
 				2D8A8E431DD0B2DC008D32AA /* 个人中心详情.png in Resources */,
-				2DACB9CF1DCF712200242D75 /* 营养套餐详情.PNG in Resources */,
-				2D2FC46F1DCF67B5001BCAF3 /* 代理跑腿详情.PNG in Resources */,
 				8C345C8D1DD0874800AC4496 /* had_comment_icon@2x.png in Resources */,
 				8C14BE641DD0C0C80060B75E /* 直播详情底部.png in Resources */,
 				8C14BEEA1DD0C6CD0060B75E /* rb_readplan_btn@2x.png in Resources */,
@@ -1455,58 +1457,55 @@
 				2DD45ACE1DCF1814001B6706 /* 促销@3x.png in Resources */,
 				8C14BEE61DD0C6CD0060B75E /* rb_booklist_btn@2x.png in Resources */,
 				2DD45B311DCF357F001B6706 /* 专家咨询.png in Resources */,
+				8C6F3BE61DD1962E006338C4 /* 健身器材3.png in Resources */,
 				2DD45B2C1DCF3478001B6706 /* 陪伴服务.png in Resources */,
-				2D3D1DAA1DCF4EE600747861 /* 健身器材4.png in Resources */,
-				2D3D1DB21DCF564500747861 /* 清洁服务详情.PNG in Resources */,
 				8C14BEE81DD0C6CD0060B75E /* rb_clock_icon@2x.png in Resources */,
+				8C6F3BF41DD1967F006338C4 /* 维修服务详情.png in Resources */,
+				8C6F3BE81DD1962E006338C4 /* 健身器材4.png in Resources */,
 				2DD45B211DCF2EE3001B6706 /* 营养套餐.png in Resources */,
-				2D3D1DA91DCF4EE600747861 /* 健身器材3详情.PNG in Resources */,
+				8C6F3BE31DD1962E006338C4 /* 健身器材1详情.png in Resources */,
 				8C14BF101DD0CE170060B75E /* bccollectbtn.png in Resources */,
-				2D8A8E5F1DD0CF1F008D32AA /* 广告2.PNG in Resources */,
 				2DD45B211DCF2EE3001B6706 /* 营养套餐.png in Resources */,
-				2D3D1DA91DCF4EE600747861 /* 健身器材3详情.PNG in Resources */,
-				2D8A8E5E1DD0CF1F008D32AA /* 广告1.PNG in Resources */,
-				2D3D1DA71DCF4EE600747861 /* 健身器材2详情.PNG in Resources */,
+				8C6F3BD41DD195E6006338C4 /* 历史营养计划详情.png in Resources */,
 				8C14BEEC1DD0C6CD0060B75E /* rb_toread_btn@2x.png in Resources */,
 				2DD45ACF1DCF1814001B6706 /* 商家@3x.png in Resources */,
 				2DD45B2A1DCF3478001B6706 /* 清洁服务.png in Resources */,
 				2DD45B391DCF365B001B6706 /* 历史营养计划.png in Resources */,
-				2D2FC4701DCF67B5001BCAF3 /* 代理购物详情.PNG in Resources */,
 				8C14BE591DD0BB1E0060B75E /* TempOfcldHeaderView.xib in Resources */,
-				2DACB9C41DCF6ADA00242D75 /* 专家咨询详情.PNG in Resources */,
-				2D3D1DAB1DCF4EE600747861 /* 健身器材4详情.PNG in Resources */,
 				8C14BF0F1DD0CE170060B75E /* bcborrowbtn@2x.png in Resources */,
 				2DD45B2B1DCF3478001B6706 /* 维修服务.png in Resources */,
+				8C6F3BC81DD1958A006338C4 /* 预约清洁服务详情.png in Resources */,
+				8C6F3BC41DD18F22006338C4 /* 广告1.png in Resources */,
 				8C345C8E1DD0874800AC4496 /* had_praise_icon_nor.png in Resources */,
-				2D3D1DBB1DCF5C1A00747861 /* 保养服务详情.PNG in Resources */,
+				8C6F3BD11DD195D2006338C4 /* 代理购物详情.png in Resources */,
 				8C14BEEE1DD0C6CD0060B75E /* rb_tothink_btn@2x.png in Resources */,
-				2DACB9CD1DCF712200242D75 /* 日常用品详情.PNG in Resources */,
-				2DACB9CC1DCF712200242D75 /* 家电厨具详情.PNG in Resources */,
+				8C6F3BC51DD18F22006338C4 /* 广告2.png in Resources */,
 				8C345C8F1DD0874800AC4496 /* had_praise_icon_nor@2x.png in Resources */,
 				2DD45B1D1DCF2EE3001B6706 /* 保健器材.png in Resources */,
+				8C6F3BF31DD1967F006338C4 /* 清洁服务详情.png in Resources */,
 				8C14BE4D1DD0B7BF0060B75E /* OfcldHeaderView.xib in Resources */,
-				2DACB9CE1DCF712200242D75 /* 有机蔬菜详情.PNG in Resources */,
-				2D3D1DA61DCF4EE600747861 /* 健身器材2.png in Resources */,
 				8C14BEE71DD0C6CD0060B75E /* rb_clock_icon.png in Resources */,
 				2DCF19EE1DCF142400A4F243 /* Main.storyboard in Resources */,
+				8C6F3BE91DD1962E006338C4 /* 健身器材4详情.png in Resources */,
 				8C345C831DD0866200AC4496 /* OfcLiveViewCell.xib in Resources */,
 				8C14BEFF1DD0CAE10060B75E /* OldToOldPlanViewCell.xib in Resources */,
 				8C14BE531DD0B9BE0060B75E /* 老友圈直播1.gif in Resources */,
 				2DD45AD11DCF1814001B6706 /* 活动@3x.png in Resources */,
 				8C345C911DD0874800AC4496 /* had_praise_icon_sel@2x.png in Resources */,
 				2DB4C51B1DCF84EE00DFEF18 /* 头像.jpg in Resources */,
+				8C6F3BE51DD1962E006338C4 /* 健身器材2详情.png in Resources */,
 				2DD45B1E1DCF2EE3001B6706 /* 家电厨具.png in Resources */,
-				2DACB9C31DCF6ADA00242D75 /* 门店理疗详情.PNG in Resources */,
 				8C345C8C1DD0874800AC4496 /* had_comment_icon.png in Resources */,
 				8C345C421DD0817600AC4496 /* MJRefresh.bundle in Resources */,
 				8C14BE561DD0BAD20060B75E /* 返回按钮.png in Resources */,
 				8C14BEF21DD0C6CD0060B75E /* rbjr_success_icon@2x.png in Resources */,
 				8C14BE5D1DD0BE080060B75E /* 直播详情.png in Resources */,
+				8C6F3BE41DD1962E006338C4 /* 健身器材2.png in Resources */,
 				2DD45B321DCF357F001B6706 /* 特殊护理.png in Resources */,
 				8C345C901DD0874800AC4496 /* had_praise_icon_sel.png in Resources */,
 				2DD45B331DCF357F001B6706 /* 门店理疗.png in Resources */,
+				8C6F3BC61DD18F22006338C4 /* 广告3.png in Resources */,
 				2D8A8E481DD0B4EB008D32AA /* 系统设置详情.png in Resources */,
-				2D3D1DA81DCF4EE600747861 /* 健身器材3.png in Resources */,
 				8C14BF071DD0CD6F0060B75E /* RbSetTimeAlertView.xib in Resources */,
 				8C14BF0E1DD0CE170060B75E /* bcborrowbtn.png in Resources */,
 			);
@@ -1777,12 +1776,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 82H6EU6V96;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OldManHappy/Header.h";
 				INFOPLIST_FILE = OldManHappy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jpyl.chengdu.OldManHappy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "688f5d4e-85cc-4c38-bf39-8f899fb5d570";
+				PROVISIONING_PROFILE_SPECIFIER = OldManHappy_disHoc;
 			};
 			name = Debug;
 		};
@@ -1790,12 +1793,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 82H6EU6V96;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OldManHappy/Header.h";
 				INFOPLIST_FILE = OldManHappy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jpyl.chengdu.OldManHappy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "688f5d4e-85cc-4c38-bf39-8f899fb5d570";
+				PROVISIONING_PROFILE_SPECIFIER = OldManHappy_disHoc;
 			};
 			name = Release;
 		};
