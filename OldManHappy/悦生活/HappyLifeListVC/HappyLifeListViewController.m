@@ -84,7 +84,7 @@ static NSString * identify = @"Cell";
     }
     NSInteger index = indexPath.row % 4 + 1;
     
-    cell.userImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"健身器材%ld",index]];
+    cell.userImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"健身器材%ld",(long)index]];
     return cell;
 }
 

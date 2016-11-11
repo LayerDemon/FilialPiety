@@ -17,7 +17,7 @@
         NSDate * date = [NSDate date];
         double timeInter = [date timeIntervalSince1970] * 1000000;
         
-        NSString * imageNameString = [NSString stringWithFormat:@"%f%ld",timeInter,i];
+        NSString * imageNameString = [NSString stringWithFormat:@"%f%ld",timeInter,(long)i];
         
         NSMutableString * md5String = [[NSMutableString alloc] initWithString:[NSString md5:imageNameString]];
         

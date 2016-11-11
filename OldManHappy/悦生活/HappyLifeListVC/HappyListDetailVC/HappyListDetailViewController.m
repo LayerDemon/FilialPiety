@@ -47,7 +47,7 @@
 - (void)initializeUserInterface
 {
     UIImageView * imageView = [[UIImageView alloc] init];
-    imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"健身器材%ld详情",_selectIndex]];
+    imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"健身器材%ld详情",(long)_selectIndex]];
     [self.view addSubview:imageView];
     
     [imageView mas_makeConstraints:^(MASConstraintMaker *make) {

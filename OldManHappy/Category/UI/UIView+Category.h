@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "UIView+Special.h"
+
 @interface UIView (Category)
 
 - (UIViewController *)getCurrentVC;

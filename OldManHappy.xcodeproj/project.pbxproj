@@ -59,7 +59,6 @@
 		2DD45B1E1DCF2EE3001B6706 /* 家电厨具.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B191DCF2EE3001B6706 /* 家电厨具.png */; };
 		2DD45B1F1DCF2EE3001B6706 /* 日常用品.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B1A1DCF2EE3001B6706 /* 日常用品.png */; };
 		2DD45B201DCF2EE3001B6706 /* 有机蔬菜.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B1B1DCF2EE3001B6706 /* 有机蔬菜.png */; };
-		2DD45B211DCF2EE3001B6706 /* 营养套餐.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B1C1DCF2EE3001B6706 /* 营养套餐.png */; };
 		2DD45B231DCF3022001B6706 /* 有机蔬菜.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B221DCF3022001B6706 /* 有机蔬菜.png */; };
 		2DD45B291DCF3478001B6706 /* 保养服务.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B251DCF3478001B6706 /* 保养服务.png */; };
 		2DD45B2A1DCF3478001B6706 /* 清洁服务.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD45B261DCF3478001B6706 /* 清洁服务.png */; };
@@ -117,6 +116,8 @@
 		8C14BF0F1DD0CE170060B75E /* bcborrowbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C14BF0B1DD0CE170060B75E /* bcborrowbtn@2x.png */; };
 		8C14BF101DD0CE170060B75E /* bccollectbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C14BF0C1DD0CE170060B75E /* bccollectbtn.png */; };
 		8C14BF111DD0CE170060B75E /* bccollectbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C14BF0D1DD0CE170060B75E /* bccollectbtn@2x.png */; };
+		8C1C24F01DD574620011F918 /* OldToOldHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C24EF1DD574620011F918 /* OldToOldHeaderView.m */; };
+		8C1C24F21DD575190011F918 /* OldToOldHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1C24F11DD575190011F918 /* OldToOldHeaderView.xib */; };
 		8C345BDF1DD0687000AC4496 /* FlexibleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C345BDE1DD0687000AC4496 /* FlexibleFrame.m */; };
 		8C345BE41DD06E9100AC4496 /* OfcLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C345BE31DD06E9100AC4496 /* OfcLiveViewController.m */; };
 		8C345BED1DD0705A00AC4496 /* UIView+LBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C345BE91DD0705A00AC4496 /* UIView+LBCategory.m */; };
@@ -204,6 +205,19 @@
 		8C6F3BF21DD1967F006338C4 /* 陪伴服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BEE1DD1967F006338C4 /* 陪伴服务详情.png */; };
 		8C6F3BF31DD1967F006338C4 /* 清洁服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BEF1DD1967F006338C4 /* 清洁服务详情.png */; };
 		8C6F3BF41DD1967F006338C4 /* 维修服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BF01DD1967F006338C4 /* 维修服务详情.png */; };
+		8CC0450D1DD5A1C3002AB938 /* 刘楚恬1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC045071DD5A1C3002AB938 /* 刘楚恬1.jpg */; };
+		8CC0450E1DD5A1C3002AB938 /* 刘楚恬2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC045081DD5A1C3002AB938 /* 刘楚恬2.jpg */; };
+		8CC0450F1DD5A1C3002AB938 /* 刘楚恬3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC045091DD5A1C3002AB938 /* 刘楚恬3.jpg */; };
+		8CC045101DD5A1C3002AB938 /* 小鸡炖蘑菇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0450A1DD5A1C3002AB938 /* 小鸡炖蘑菇.jpg */; };
+		8CC045111DD5A1C3002AB938 /* 仰望星空.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0450B1DD5A1C3002AB938 /* 仰望星空.jpg */; };
+		8CC045121DD5A1C3002AB938 /* 鱼虾小妾.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0450C1DD5A1C3002AB938 /* 鱼虾小妾.jpg */; };
+		8CC045141DD5A21C002AB938 /* 黑长直.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC045131DD5A21C002AB938 /* 黑长直.jpg */; };
+		8CC045161DD5C3F7002AB938 /* 快看小萝莉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC045151DD5C3F7002AB938 /* 快看小萝莉.jpg */; };
+		8CC045191DD5C5DE002AB938 /* 营养套餐.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CC045181DD5C5DE002AB938 /* 营养套餐.png */; };
+		8CC0451C1DD5C80A002AB938 /* UIView+Special.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0451B1DD5C80A002AB938 /* UIView+Special.m */; };
+		8CC045201DD5C88B002AB938 /* MorePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0451F1DD5C88B002AB938 /* MorePlanViewController.m */; };
+		8CC045231DD5C8E1002AB938 /* MorePlanHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC045221DD5C8E1002AB938 /* MorePlanHeaderView.m */; };
+		8CC045251DD5C90A002AB938 /* MorePlanHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC045241DD5C90A002AB938 /* MorePlanHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -322,7 +336,6 @@
 		2DD45B191DCF2EE3001B6706 /* 家电厨具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "家电厨具.png"; sourceTree = "<group>"; };
 		2DD45B1A1DCF2EE3001B6706 /* 日常用品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日常用品.png"; sourceTree = "<group>"; };
 		2DD45B1B1DCF2EE3001B6706 /* 有机蔬菜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜.png"; sourceTree = "<group>"; };
-		2DD45B1C1DCF2EE3001B6706 /* 营养套餐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营养套餐.png"; sourceTree = "<group>"; };
 		2DD45B221DCF3022001B6706 /* 有机蔬菜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜.png"; sourceTree = "<group>"; };
 		2DD45B251DCF3478001B6706 /* 保养服务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保养服务.png"; sourceTree = "<group>"; };
 		2DD45B261DCF3478001B6706 /* 清洁服务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清洁服务.png"; sourceTree = "<group>"; };
@@ -391,6 +404,9 @@
 		8C14BF0B1DD0CE170060B75E /* bcborrowbtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bcborrowbtn@2x.png"; sourceTree = "<group>"; };
 		8C14BF0C1DD0CE170060B75E /* bccollectbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bccollectbtn.png; sourceTree = "<group>"; };
 		8C14BF0D1DD0CE170060B75E /* bccollectbtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bccollectbtn@2x.png"; sourceTree = "<group>"; };
+		8C1C24EE1DD574620011F918 /* OldToOldHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldToOldHeaderView.h; sourceTree = "<group>"; };
+		8C1C24EF1DD574620011F918 /* OldToOldHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldToOldHeaderView.m; sourceTree = "<group>"; };
+		8C1C24F11DD575190011F918 /* OldToOldHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OldToOldHeaderView.xib; sourceTree = "<group>"; };
 		8C345BDD1DD0687000AC4496 /* FlexibleFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleFrame.h; sourceTree = "<group>"; };
 		8C345BDE1DD0687000AC4496 /* FlexibleFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexibleFrame.m; sourceTree = "<group>"; };
 		8C345BE01DD0689600AC4496 /* LBBaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBBaseHeader.h; sourceTree = "<group>"; };
@@ -536,6 +552,23 @@
 		8C6F3BEE1DD1967F006338C4 /* 陪伴服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陪伴服务详情.png"; sourceTree = "<group>"; };
 		8C6F3BEF1DD1967F006338C4 /* 清洁服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清洁服务详情.png"; sourceTree = "<group>"; };
 		8C6F3BF01DD1967F006338C4 /* 维修服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "维修服务详情.png"; sourceTree = "<group>"; };
+		8CC045071DD5A1C3002AB938 /* 刘楚恬1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘楚恬1.jpg"; sourceTree = "<group>"; };
+		8CC045081DD5A1C3002AB938 /* 刘楚恬2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘楚恬2.jpg"; sourceTree = "<group>"; };
+		8CC045091DD5A1C3002AB938 /* 刘楚恬3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘楚恬3.jpg"; sourceTree = "<group>"; };
+		8CC0450A1DD5A1C3002AB938 /* 小鸡炖蘑菇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小鸡炖蘑菇.jpg"; sourceTree = "<group>"; };
+		8CC0450B1DD5A1C3002AB938 /* 仰望星空.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "仰望星空.jpg"; sourceTree = "<group>"; };
+		8CC0450C1DD5A1C3002AB938 /* 鱼虾小妾.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鱼虾小妾.jpg"; sourceTree = "<group>"; };
+		8CC045131DD5A21C002AB938 /* 黑长直.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑长直.jpg"; sourceTree = "<group>"; };
+		8CC045151DD5C3F7002AB938 /* 快看小萝莉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "快看小萝莉.jpg"; sourceTree = "<group>"; };
+		8CC045171DD5C5A6002AB938 /* OldToOldHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldToOldHeaderView.h; sourceTree = "<group>"; };
+		8CC045181DD5C5DE002AB938 /* 营养套餐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营养套餐.png"; sourceTree = "<group>"; };
+		8CC0451A1DD5C80A002AB938 /* UIView+Special.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Special.h"; sourceTree = "<group>"; };
+		8CC0451B1DD5C80A002AB938 /* UIView+Special.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Special.m"; sourceTree = "<group>"; };
+		8CC0451E1DD5C88B002AB938 /* MorePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorePlanViewController.h; sourceTree = "<group>"; };
+		8CC0451F1DD5C88B002AB938 /* MorePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorePlanViewController.m; sourceTree = "<group>"; };
+		8CC045211DD5C8E1002AB938 /* MorePlanHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorePlanHeaderView.h; sourceTree = "<group>"; };
+		8CC045221DD5C8E1002AB938 /* MorePlanHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorePlanHeaderView.m; sourceTree = "<group>"; };
+		8CC045241DD5C90A002AB938 /* MorePlanHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MorePlanHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -649,6 +682,9 @@
 			children = (
 				2DD45AC51DCF15B7001B6706 /* OldToOldViewController.h */,
 				2DD45AC61DCF15B7001B6706 /* OldToOldViewController.m */,
+				8C1C24EE1DD574620011F918 /* OldToOldHeaderView.h */,
+				8C1C24EF1DD574620011F918 /* OldToOldHeaderView.m */,
+				8C1C24F11DD575190011F918 /* OldToOldHeaderView.xib */,
 				8C14BECE1DD0C5370060B75E /* OtoTopView.h */,
 				8C14BECF1DD0C5370060B75E /* OtoTopView.m */,
 				8C14BED41DD0C6850060B75E /* OtoTopView.xib */,
@@ -664,6 +700,8 @@
 				8C14BF031DD0CD6F0060B75E /* RbSetTimeAlertView.h */,
 				8C14BF041DD0CD6F0060B75E /* RbSetTimeAlertView.m */,
 				8C14BF051DD0CD6F0060B75E /* RbSetTimeAlertView.xib */,
+				8CC045171DD5C5A6002AB938 /* OldToOldHeaderView.h */,
+				8CC0451D1DD5C87D002AB938 /* 更多计划 */,
 			);
 			path = "老吾老";
 			sourceTree = "<group>";
@@ -900,6 +938,8 @@
 				2DD45B0B1DCF2771001B6706 /* UITextField+Category.m */,
 				2DD45B0C1DCF2771001B6706 /* UIView+Category.h */,
 				2DD45B0D1DCF2771001B6706 /* UIView+Category.m */,
+				8CC0451A1DD5C80A002AB938 /* UIView+Special.h */,
+				8CC0451B1DD5C80A002AB938 /* UIView+Special.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -926,7 +966,7 @@
 				2DD45B191DCF2EE3001B6706 /* 家电厨具.png */,
 				2DD45B1A1DCF2EE3001B6706 /* 日常用品.png */,
 				2DD45B1B1DCF2EE3001B6706 /* 有机蔬菜.png */,
-				2DD45B1C1DCF2EE3001B6706 /* 营养套餐.png */,
+				8CC045181DD5C5DE002AB938 /* 营养套餐.png */,
 			);
 			path = "线上商城";
 			sourceTree = "<group>";
@@ -1005,6 +1045,14 @@
 		8C14BED61DD0C6C30060B75E /* 老吾老 */ = {
 			isa = PBXGroup;
 			children = (
+				8CC045151DD5C3F7002AB938 /* 快看小萝莉.jpg */,
+				8CC045131DD5A21C002AB938 /* 黑长直.jpg */,
+				8CC045071DD5A1C3002AB938 /* 刘楚恬1.jpg */,
+				8CC045081DD5A1C3002AB938 /* 刘楚恬2.jpg */,
+				8CC045091DD5A1C3002AB938 /* 刘楚恬3.jpg */,
+				8CC0450A1DD5A1C3002AB938 /* 小鸡炖蘑菇.jpg */,
+				8CC0450B1DD5A1C3002AB938 /* 仰望星空.jpg */,
+				8CC0450C1DD5A1C3002AB938 /* 鱼虾小妾.jpg */,
 				8C14BF0A1DD0CE170060B75E /* bcborrowbtn.png */,
 				8C14BF0B1DD0CE170060B75E /* bcborrowbtn@2x.png */,
 				8C14BF0C1DD0CE170060B75E /* bccollectbtn.png */,
@@ -1321,6 +1369,18 @@
 			path = JSONKit;
 			sourceTree = "<group>";
 		};
+		8CC0451D1DD5C87D002AB938 /* 更多计划 */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0451E1DD5C88B002AB938 /* MorePlanViewController.h */,
+				8CC0451F1DD5C88B002AB938 /* MorePlanViewController.m */,
+				8CC045211DD5C8E1002AB938 /* MorePlanHeaderView.h */,
+				8CC045221DD5C8E1002AB938 /* MorePlanHeaderView.m */,
+				8CC045241DD5C90A002AB938 /* MorePlanHeaderView.xib */,
+			);
+			path = "更多计划";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1439,16 +1499,19 @@
 				2DD45B1F1DCF2EE3001B6706 /* 日常用品.png in Resources */,
 				8C6F3BF11DD1967F006338C4 /* 保养服务详情.png in Resources */,
 				2DD45B201DCF2EE3001B6706 /* 有机蔬菜.png in Resources */,
+				8CC0450E1DD5A1C3002AB938 /* 刘楚恬2.jpg in Resources */,
 				2DCF19F31DCF142400A4F243 /* LaunchScreen.storyboard in Resources */,
 				8C14BEEB1DD0C6CD0060B75E /* rb_toread_btn.png in Resources */,
 				2DD45B291DCF3478001B6706 /* 保养服务.png in Resources */,
 				8C6F3BE71DD1962E006338C4 /* 健身器材3详情.png in Resources */,
 				8C6F3BEA1DD1962E006338C4 /* 日常用品详情.png in Resources */,
+				8CC045251DD5C90A002AB938 /* MorePlanHeaderView.xib in Resources */,
 				8C14BEEF1DD0C6CD0060B75E /* rbjr_failed_icon.png in Resources */,
 				8C6F3BCC1DD195B3006338C4 /* 门店理疗详情.png in Resources */,
 				2DD45B3A1DCF365B001B6706 /* 代理购物.png in Resources */,
 				8C6F3BE11DD1962E006338C4 /* 家电厨具详情.png in Resources */,
 				8C6F3BEB1DD1962E006338C4 /* 营养套餐详情.png in Resources */,
+				8CC045121DD5A1C3002AB938 /* 鱼虾小妾.jpg in Resources */,
 				8C6F3BF21DD1967F006338C4 /* 陪伴服务详情.png in Resources */,
 				8C6F3BCE1DD195B3006338C4 /* 专家咨询详情.png in Resources */,
 				8C14BE621DD0C05D0060B75E /* TempOfcldBottomView.xib in Resources */,
@@ -1478,14 +1541,16 @@
 				8C14BEE81DD0C6CD0060B75E /* rb_clock_icon@2x.png in Resources */,
 				8C6F3BF41DD1967F006338C4 /* 维修服务详情.png in Resources */,
 				8C6F3BE81DD1962E006338C4 /* 健身器材4.png in Resources */,
-				2DD45B211DCF2EE3001B6706 /* 营养套餐.png in Resources */,
+				8CC045101DD5A1C3002AB938 /* 小鸡炖蘑菇.jpg in Resources */,
 				8C6F3BE31DD1962E006338C4 /* 健身器材1详情.png in Resources */,
+				8CC045191DD5C5DE002AB938 /* 营养套餐.png in Resources */,
 				8C14BF101DD0CE170060B75E /* bccollectbtn.png in Resources */,
-				2DD45B211DCF2EE3001B6706 /* 营养套餐.png in Resources */,
+				8CC045161DD5C3F7002AB938 /* 快看小萝莉.jpg in Resources */,
 				2DD4FD3A1DD4C1B00099907E /* 购物车.png in Resources */,
 				8C6F3BD41DD195E6006338C4 /* 历史营养计划详情.png in Resources */,
 				8C14BEEC1DD0C6CD0060B75E /* rb_toread_btn@2x.png in Resources */,
 				2DD45ACF1DCF1814001B6706 /* 商家@3x.png in Resources */,
+				8CC045111DD5A1C3002AB938 /* 仰望星空.jpg in Resources */,
 				2DD45B2A1DCF3478001B6706 /* 清洁服务.png in Resources */,
 				2DD45B391DCF365B001B6706 /* 历史营养计划.png in Resources */,
 				8C14BE591DD0BB1E0060B75E /* TempOfcldHeaderView.xib in Resources */,
@@ -1498,6 +1563,7 @@
 				8C14BEEE1DD0C6CD0060B75E /* rb_tothink_btn@2x.png in Resources */,
 				8C6F3BC51DD18F22006338C4 /* 广告2.png in Resources */,
 				8C345C8F1DD0874800AC4496 /* had_praise_icon_nor@2x.png in Resources */,
+				8C1C24F21DD575190011F918 /* OldToOldHeaderView.xib in Resources */,
 				2DD45B1D1DCF2EE3001B6706 /* 保健器材.png in Resources */,
 				8C6F3BF31DD1967F006338C4 /* 清洁服务详情.png in Resources */,
 				8C14BE4D1DD0B7BF0060B75E /* OfcldHeaderView.xib in Resources */,
@@ -1511,6 +1577,7 @@
 				8C345C911DD0874800AC4496 /* had_praise_icon_sel@2x.png in Resources */,
 				2DB4C51B1DCF84EE00DFEF18 /* 头像.jpg in Resources */,
 				8C6F3BE51DD1962E006338C4 /* 健身器材2详情.png in Resources */,
+				8CC0450F1DD5A1C3002AB938 /* 刘楚恬3.jpg in Resources */,
 				2DD45B1E1DCF2EE3001B6706 /* 家电厨具.png in Resources */,
 				8C345C8C1DD0874800AC4496 /* had_comment_icon.png in Resources */,
 				8C345C421DD0817600AC4496 /* MJRefresh.bundle in Resources */,
@@ -1521,6 +1588,8 @@
 				2DD45B321DCF357F001B6706 /* 特殊护理.png in Resources */,
 				8C345C901DD0874800AC4496 /* had_praise_icon_sel.png in Resources */,
 				2DD45B331DCF357F001B6706 /* 门店理疗.png in Resources */,
+				8CC045141DD5A21C002AB938 /* 黑长直.jpg in Resources */,
+				8CC0450D1DD5A1C3002AB938 /* 刘楚恬1.jpg in Resources */,
 				8C6F3BC61DD18F22006338C4 /* 广告3.png in Resources */,
 				2D8A8E481DD0B4EB008D32AA /* 系统设置详情.png in Resources */,
 				8C14BF071DD0CD6F0060B75E /* RbSetTimeAlertView.xib in Resources */,
@@ -1555,6 +1624,7 @@
 				2DD45AF31DCF1949001B6706 /* NSArray+MASAdditions.m in Sources */,
 				2DD45AFA1DCF219B001B6706 /* BaseViewController.m in Sources */,
 				8C345C791DD0845500AC4496 /* UIImageView+HighlightedWebCache.m in Sources */,
+				8CC0451C1DD5C80A002AB938 /* UIView+Special.m in Sources */,
 				8C345CA91DD0883900AC4496 /* DLScrollTabbarView.m in Sources */,
 				8C14BE481DD0B5890060B75E /* OfcLiveDetailViewController.m in Sources */,
 				8C14BEFD1DD0C9C10060B75E /* YLProgressBar.m in Sources */,
@@ -1578,6 +1648,7 @@
 				8C345C811DD0855700AC4496 /* NSDateFormatter+Category.m in Sources */,
 				2DD45AF51DCF1949001B6706 /* View+MASAdditions.m in Sources */,
 				8C345C711DD0845500AC4496 /* SDWebImageDownloader.m in Sources */,
+				8CC045201DD5C88B002AB938 /* MorePlanViewController.m in Sources */,
 				8C345CA61DD0883900AC4496 /* DLCustomSlideView.m in Sources */,
 				2D3D1D971DCF48F300747861 /* HappyLifeListViewController.m in Sources */,
 				2DCF19EB1DCF142400A4F243 /* ViewController.m in Sources */,
@@ -1599,6 +1670,7 @@
 				8C345C3D1DD0817600AC4496 /* MJRefreshBackNormalFooter.m in Sources */,
 				2D8A8E461DD0B35C008D32AA /* UserInfoViewController.m in Sources */,
 				2D8A8E501DD0BD94008D32AA /* AppointViewController.m in Sources */,
+				8CC045231DD5C8E1002AB938 /* MorePlanHeaderView.m in Sources */,
 				2DD45AC11DCF158C001B6706 /* MySelfViewController.m in Sources */,
 				2DD45AF11DCF1949001B6706 /* MASViewAttribute.m in Sources */,
 				2D3D1D9A1DCF4A6800747861 /* HappyLifeListTableViewCell.m in Sources */,
@@ -1637,6 +1709,7 @@
 				8C345C731DD0845500AC4496 /* SDWebImageManager.m in Sources */,
 				2DD45AF61DCF1949001B6706 /* ViewController+MASAdditions.m in Sources */,
 				8C345C381DD0817600AC4496 /* MJRefreshHeader.m in Sources */,
+				8C1C24F01DD574620011F918 /* OldToOldHeaderView.m in Sources */,
 				8C345CAB1DD0883900AC4496 /* DLUtility.m in Sources */,
 				2DCF19E51DCF142400A4F243 /* main.m in Sources */,
 				8C345C3A1DD0817600AC4496 /* MJRefreshAutoNormalFooter.m in Sources */,
