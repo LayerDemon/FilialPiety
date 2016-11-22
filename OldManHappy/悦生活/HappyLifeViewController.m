@@ -14,6 +14,8 @@
 
 #import "NewsScrollView.h"
 
+#import "NewHappyViewController.h"
+
 #define BUTTON_TAG 1000
 
 @interface HappyLifeViewController ()
@@ -55,17 +57,17 @@
     
     NSArray * imageArray = [NSArray arrayWithObjects:@"广告1",@"广告2",@"广告3", nil];
     
-    NewsScrollView * topScrollView = [[NewsScrollView alloc] initWithFrame:CGRectMake(0, 0, NOW_SCR_W, 150) dataSource:imageArray];
+    NewsScrollView * topScrollView = [[NewsScrollView alloc] initWithFrame:CGRectMake(0, 0, NOW_SCR_W, 200) dataSource:imageArray];
     topScrollView.backgroundColor = [UIColor blueColor];
     [self.view addSubview:topScrollView];
     
-//    //线上商城
-//    UIView * mallOnLineView = [self createTypeViewWithTitle:@"线上商城" detail:@"低价，促销，抢购" buttonTitleArray:@[@"保健器材",@"营养套餐",@"有机蔬菜",@"家电厨具",@"日常用品"] baseTag:BUTTON_TAG];
-//    
-//    [mallOnLineView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.top.equalTo(@150);
-//    }];
-//    
+    //线上商城
+    UIView * mallOnLineView = [self createTypeViewWithTitle:@"线上商城" detail:@"低价，促销，抢购" buttonTitleArray:@[@"保健器材",@"营养套餐",@"有机蔬菜",@"家电厨具",@"日常用品"] baseTag:BUTTON_TAG];
+    
+    [mallOnLineView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(@150);
+    }];
+    
     //家政服务
     UIView * familySericeView = [self createTypeViewWithTitle:@"家政服务" detail:@"" buttonTitleArray:@[@"维修服务",@"清洁服务",@"保养服务",@"陪伴服务"] baseTag:BUTTON_TAG + 100];
     
@@ -80,21 +82,106 @@
         make.top.equalTo(familySericeView.bottom).offset(@10);
     }];
     
-    //营养计划
-    UIView * planView = [self createTypeViewWithTitle:@"营养计划" detail:@"" buttonTitleArray:@[@"历史营养计划"] baseTag:BUTTON_TAG + 300];
+//    //营养计划
+//    UIView * planView = [self createTypeViewWithTitle:@"营养计划" detail:@"" buttonTitleArray:@[@"历史营养计划"] baseTag:BUTTON_TAG + 300];
+//    
+//    [planView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.equalTo(healthView.bottom).offset(@10);
+//    }];
+//    
+//    //跑腿服务
+//    UIView * runView = [self createTypeViewWithTitle:@"跑腿服务" detail:@"" buttonTitleArray:@[@"代理跑腿",@"代理购物"] baseTag:BUTTON_TAG + 400];
+//    
+//    [runView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.equalTo(planView.bottom).offset(@10);
+//    }];
+//    
+    ((UIScrollView *)self.view).contentSize = CGSizeMake(NOW_SCR_W, 180 * 2 + 150);
     
-    [planView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(healthView.bottom).offset(@10);
+    if (180 * 2 + 150 < NOW_SCR_H) {
+         ((UIScrollView *)self.view).contentSize = CGSizeMake(NOW_SCR_W, NOW_SCR_H);
+    }
+    
+//    NSArray * titleArray = [NSArray arrayWithObjects:@"家政服务",@"医疗健康",@"营养计划",@"跑腿服务", nil];
+//    for (int i = 0; i < titleArray.count; i ++) {
+//        UIButton * button = [self createButtonWithTitle:titleArray[i] imageName:titleArray[i]];
+//    
+//        [button addTarget:self action:@selector(happyButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+//        button.tag = BUTTON_TAG + i;
+//        
+//        [button mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.left.equalTo(@(NOW_SCR_W/3.0 * (i % 3)));
+//            make.top.equalTo(@(210 + NOW_SCR_W/3.0 * 0.8 * (i / 3)));
+//        }];
+//    }
+    
+    
+}
+
+
+- (UIButton *)createButtonWithTitle:(NSString *)title imageName:(NSString *)imageName
+{
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.backgroundColor = _COLOR(230, 230, 230, 1);
+    [self.view addSubview:button];
+    
+    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.equalTo(@(NOW_SCR_W/3.0 - 1));
+        make.height.equalTo(@(NOW_SCR_W/3.0 * 0.8 - 1));
     }];
     
-    //跑腿服务
-    UIView * runView = [self createTypeViewWithTitle:@"跑腿服务" detail:@"" buttonTitleArray:@[@"代理跑腿",@"代理购物"] baseTag:BUTTON_TAG + 400];
+    UIView * bgView = [[UIView alloc] init];
+    bgView.userInteractionEnabled = NO;
+    bgView.layer.cornerRadius = 5;
+    bgView.backgroundColor = _COLOR(arc4random()%255, arc4random()%255, arc4random()%255, 1);
+    [button addSubview:bgView];
     
-    [runView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(planView.bottom).offset(@10);
+    [bgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.equalTo(button.width).multipliedBy(0.65);
+        make.height.equalTo(button).multipliedBy(0.65);
+        make.centerX.equalTo(button);
+        make.centerY.equalTo(button).offset(@-5);
     }];
     
-    ((UIScrollView *)self.view).contentSize = CGSizeMake(NOW_SCR_W, 180 * 4 + 150);
+    UIImageView * imageView = [[UIImageView alloc] init];
+    imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@new",imageName]];
+    [bgView addSubview:imageView];
+    
+    [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.equalTo(@40);
+        make.center.equalTo(bgView);
+    }];
+    
+    UILabel * titleLabel = [UILabel createLabelWithText:title font:15 subView:button];
+    titleLabel.textColor = [UIColor darkGrayColor];
+    titleLabel.textAlignment = NSTextAlignmentCenter;
+    
+    [titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.left.equalTo(button);
+        make.bottom.equalTo(@0);
+        make.height.equalTo(@20);
+    }];
+    
+    return button;
+}
+
+
+#pragma mark -- button pressed
+- (void)happyButtonPressed:(UIButton *)sender
+{
+    NSInteger index = sender.tag - BUTTON_TAG;
+    
+    NSArray * titleArray = [NSArray arrayWithObjects:@"家政服务",@"医疗健康",@"营养计划",@"跑腿服务", nil];
+    
+    NSArray * jiazArray = @[@"维修服务",@"清洁服务",@"保养服务",@"陪伴服务"];
+    NSArray * yilArray = @[@"专家咨询",@"门店理疗",@"特殊护理"];
+    NSArray * yinyArray = @[@"历史营养计划"];
+    NSArray * paotuiArray = @[@"代理跑腿",@"代理购物"];
+    
+    NSArray * dataArray = @[jiazArray,yilArray,yinyArray,paotuiArray];
+    
+    NewHappyViewController * newVC = [[NewHappyViewController alloc] initWithTitle:titleArray[index] childArray:dataArray[index]];
+    [self.navigationController pushViewController:newVC animated:YES];
 }
 
 
@@ -158,7 +245,7 @@
         UIImageView * toolImageView = [[UIImageView alloc] init];
         toolImageView.clipsToBounds = YES;
         toolImageView.contentMode = UIViewContentModeScaleAspectFill;
-        toolImageView.image = [UIImage imageNamed:buttonTitleArray[i]];
+        toolImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@.jpg",buttonTitleArray[i]]];
         [toolButton addSubview:toolImageView];
         
         [toolImageView mas_makeConstraints:^(MASConstraintMaker *make) {

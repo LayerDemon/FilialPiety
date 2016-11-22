@@ -75,7 +75,7 @@
     _topBGImageView = ({
         UIImageView * imageView = [[UIImageView alloc] init];
         imageView.contentMode = UIViewContentModeScaleAspectFill;
-        imageView.image = [UIImage imageNamed:@"头像.jpg"];
+        imageView.image = [UIImage imageNamed:@"李良辰.jpg"];
         imageView.userInteractionEnabled = YES;
         imageView.clipsToBounds = YES;
         [self.view addSubview:imageView];
@@ -103,7 +103,7 @@
         UIImageView * imageView = [[UIImageView alloc] init];
         imageView.clipsToBounds = YES;
         imageView.userInteractionEnabled = YES;
-        imageView.image = [UIImage imageNamed:@"头像.jpg"];
+        imageView.image = [UIImage imageNamed:@"李良辰.jpg"];
         imageView.contentMode = UIViewContentModeScaleAspectFill;
         [_topBGImageView addSubview:imageView];
         imageView;
@@ -135,7 +135,7 @@
     _addressLabel = ({
         UILabel * label = [[UILabel alloc] init];
         label.textColor = [UIColor whiteColor];
-        label.text = @"阳光社区";
+        label.text = @"革新社区";
         label.font = [UIFont systemFontOfSize:11];
         [_topBGImageView addSubview:label];
         label;
