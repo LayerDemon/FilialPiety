@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D082DE31DE894E5003EF47F /* OldFriendBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D082DE11DE894E5003EF47F /* OldFriendBuyViewController.m */; };
+		2D082DE41DE894E5003EF47F /* OldFriendBuyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D082DE21DE894E5003EF47F /* OldFriendBuyViewController.xib */; };
+		2D082DEA1DE8A0A2003EF47F /* OlderDetailInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D082DE81DE8A0A2003EF47F /* OlderDetailInfoViewController.m */; };
+		2D082DEB1DE8A0A2003EF47F /* OlderDetailInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D082DE91DE8A0A2003EF47F /* OlderDetailInfoViewController.xib */; };
+		2D082DED1DE8A234003EF47F /* 信息表.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D082DEC1DE8A234003EF47F /* 信息表.png */; };
+		2D19AF531DEA922800AF9FE4 /* 保养服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D19AF521DEA922800AF9FE4 /* 保养服务详情.png */; };
+		2D19AF551DEA93F200AF9FE4 /* 清洁服务详情.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2D19AF541DEA93F200AF9FE4 /* 清洁服务详情.PNG */; };
+		2D2A06D21DE73FA400AC0834 /* OldFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A06D11DE73FA400AC0834 /* OldFriendViewController.m */; };
+		2D2A06DA1DE74C1300AC0834 /* 农村山货.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A06D41DE74C1300AC0834 /* 农村山货.png */; };
+		2D2A06DB1DE74C1300AC0834 /* 土鸡.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A06D51DE74C1300AC0834 /* 土鸡.png */; };
+		2D2A06DC1DE74C1300AC0834 /* 土鸡蛋.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A06D61DE74C1300AC0834 /* 土鸡蛋.png */; };
+		2D2A06DD1DE74C1300AC0834 /* 有机蔬菜.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A06D71DE74C1300AC0834 /* 有机蔬菜.png */; };
+		2D2A06DE1DE74C1300AC0834 /* 蜂蜜.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A06D81DE74C1300AC0834 /* 蜂蜜.png */; };
+		2D2A06DF1DE74C1300AC0834 /* 预定.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2A06D91DE74C1300AC0834 /* 预定.png */; };
 		2D3556651DE47FDB009A28FC /* 保养服务.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D3556611DE47FDB009A28FC /* 保养服务.jpg */; };
 		2D3556661DE47FDB009A28FC /* 陪伴服务.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D3556621DE47FDB009A28FC /* 陪伴服务.jpg */; };
 		2D3556671DE47FDB009A28FC /* 清洁服务.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D3556631DE47FDB009A28FC /* 清洁服务.jpg */; };
@@ -218,9 +232,7 @@
 		8C6F3BEA1DD1962E006338C4 /* 日常用品详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BDE1DD1962E006338C4 /* 日常用品详情.png */; };
 		8C6F3BEB1DD1962E006338C4 /* 营养套餐详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BDF1DD1962E006338C4 /* 营养套餐详情.png */; };
 		8C6F3BEC1DD1962E006338C4 /* 有机蔬菜详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BE01DD1962E006338C4 /* 有机蔬菜详情.png */; };
-		8C6F3BF11DD1967F006338C4 /* 保养服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BED1DD1967F006338C4 /* 保养服务详情.png */; };
 		8C6F3BF21DD1967F006338C4 /* 陪伴服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BEE1DD1967F006338C4 /* 陪伴服务详情.png */; };
-		8C6F3BF31DD1967F006338C4 /* 清洁服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BEF1DD1967F006338C4 /* 清洁服务详情.png */; };
 		8C6F3BF41DD1967F006338C4 /* 维修服务详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F3BF01DD1967F006338C4 /* 维修服务详情.png */; };
 		8CC0450D1DD5A1C3002AB938 /* 刘楚恬1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC045071DD5A1C3002AB938 /* 刘楚恬1.jpg */; };
 		8CC0450E1DD5A1C3002AB938 /* 刘楚恬2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC045081DD5A1C3002AB938 /* 刘楚恬2.jpg */; };
@@ -255,6 +267,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D082DE01DE894E5003EF47F /* OldFriendBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldFriendBuyViewController.h; sourceTree = "<group>"; };
+		2D082DE11DE894E5003EF47F /* OldFriendBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldFriendBuyViewController.m; sourceTree = "<group>"; };
+		2D082DE21DE894E5003EF47F /* OldFriendBuyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OldFriendBuyViewController.xib; sourceTree = "<group>"; };
+		2D082DE51DE8A080003EF47F /* OlderDetailInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OlderDetailInfoViewController.h; sourceTree = "<group>"; };
+		2D082DE81DE8A0A2003EF47F /* OlderDetailInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OlderDetailInfoViewController.m; sourceTree = "<group>"; };
+		2D082DE91DE8A0A2003EF47F /* OlderDetailInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OlderDetailInfoViewController.xib; sourceTree = "<group>"; };
+		2D082DEC1DE8A234003EF47F /* 信息表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "信息表.png"; sourceTree = "<group>"; };
+		2D19AF521DEA922800AF9FE4 /* 保养服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保养服务详情.png"; sourceTree = "<group>"; };
+		2D19AF541DEA93F200AF9FE4 /* 清洁服务详情.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清洁服务详情.PNG"; sourceTree = "<group>"; };
+		2D2A06D01DE73FA400AC0834 /* OldFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldFriendViewController.h; sourceTree = "<group>"; };
+		2D2A06D11DE73FA400AC0834 /* OldFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldFriendViewController.m; sourceTree = "<group>"; };
+		2D2A06D41DE74C1300AC0834 /* 农村山货.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "农村山货.png"; sourceTree = "<group>"; };
+		2D2A06D51DE74C1300AC0834 /* 土鸡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "土鸡.png"; sourceTree = "<group>"; };
+		2D2A06D61DE74C1300AC0834 /* 土鸡蛋.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "土鸡蛋.png"; sourceTree = "<group>"; };
+		2D2A06D71DE74C1300AC0834 /* 有机蔬菜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜.png"; sourceTree = "<group>"; };
+		2D2A06D81DE74C1300AC0834 /* 蜂蜜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜂蜜.png"; sourceTree = "<group>"; };
+		2D2A06D91DE74C1300AC0834 /* 预定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预定.png"; sourceTree = "<group>"; };
 		2D3556611DE47FDB009A28FC /* 保养服务.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "保养服务.jpg"; sourceTree = "<group>"; };
 		2D3556621DE47FDB009A28FC /* 陪伴服务.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陪伴服务.jpg"; sourceTree = "<group>"; };
 		2D3556631DE47FDB009A28FC /* 清洁服务.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "清洁服务.jpg"; sourceTree = "<group>"; };
@@ -583,9 +612,7 @@
 		8C6F3BDE1DD1962E006338C4 /* 日常用品详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日常用品详情.png"; sourceTree = "<group>"; };
 		8C6F3BDF1DD1962E006338C4 /* 营养套餐详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营养套餐详情.png"; sourceTree = "<group>"; };
 		8C6F3BE01DD1962E006338C4 /* 有机蔬菜详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有机蔬菜详情.png"; sourceTree = "<group>"; };
-		8C6F3BED1DD1967F006338C4 /* 保养服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保养服务详情.png"; sourceTree = "<group>"; };
 		8C6F3BEE1DD1967F006338C4 /* 陪伴服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陪伴服务详情.png"; sourceTree = "<group>"; };
-		8C6F3BEF1DD1967F006338C4 /* 清洁服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清洁服务详情.png"; sourceTree = "<group>"; };
 		8C6F3BF01DD1967F006338C4 /* 维修服务详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "维修服务详情.png"; sourceTree = "<group>"; };
 		8CC045071DD5A1C3002AB938 /* 刘楚恬1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘楚恬1.jpg"; sourceTree = "<group>"; };
 		8CC045081DD5A1C3002AB938 /* 刘楚恬2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘楚恬2.jpg"; sourceTree = "<group>"; };
@@ -631,6 +658,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D2A06D31DE74C1300AC0834 /* 购健康 */ = {
+			isa = PBXGroup;
+			children = (
+				2D2A06D41DE74C1300AC0834 /* 农村山货.png */,
+				2D2A06D51DE74C1300AC0834 /* 土鸡.png */,
+				2D2A06D61DE74C1300AC0834 /* 土鸡蛋.png */,
+				2D2A06D71DE74C1300AC0834 /* 有机蔬菜.png */,
+				2D2A06D81DE74C1300AC0834 /* 蜂蜜.png */,
+				2D2A06D91DE74C1300AC0834 /* 预定.png */,
+			);
+			path = "购健康";
+			sourceTree = "<group>";
+		};
 		2D3556711DE484FD009A28FC /* 中心风采 */ = {
 			isa = PBXGroup;
 			children = (
@@ -725,9 +765,9 @@
 		2D3D1DB01DCF564500747861 /* 家政服务 */ = {
 			isa = PBXGroup;
 			children = (
-				8C6F3BED1DD1967F006338C4 /* 保养服务详情.png */,
+				2D19AF541DEA93F200AF9FE4 /* 清洁服务详情.PNG */,
+				2D19AF521DEA922800AF9FE4 /* 保养服务详情.png */,
 				8C6F3BEE1DD1967F006338C4 /* 陪伴服务详情.png */,
-				8C6F3BEF1DD1967F006338C4 /* 清洁服务详情.png */,
 				8C6F3BF01DD1967F006338C4 /* 维修服务详情.png */,
 			);
 			path = "家政服务";
@@ -808,6 +848,9 @@
 				8C14BF051DD0CD6F0060B75E /* RbSetTimeAlertView.xib */,
 				8CC045171DD5C5A6002AB938 /* OldToOldHeaderView.h */,
 				8CC0451D1DD5C87D002AB938 /* 更多计划 */,
+				2D082DE51DE8A080003EF47F /* OlderDetailInfoViewController.h */,
+				2D082DE81DE8A0A2003EF47F /* OlderDetailInfoViewController.m */,
+				2D082DE91DE8A0A2003EF47F /* OlderDetailInfoViewController.xib */,
 			);
 			path = "老吾老";
 			sourceTree = "<group>";
@@ -815,11 +858,17 @@
 		2DA211161DCF1511008994D6 /* 老友圈 */ = {
 			isa = PBXGroup;
 			children = (
+				2D2A06D31DE74C1300AC0834 /* 购健康 */,
 				2DD45AC21DCF15AB001B6706 /* OldFriendCicleViewController.h */,
 				2DD45AC31DCF15AB001B6706 /* OldFriendCicleViewController.m */,
 				8C345BE11DD06E6000AC4496 /* 直播列表 */,
 				2DD4FD321DD4BCAB0099907E /* OldFriendDetailViewController.h */,
 				2DD4FD331DD4BCAB0099907E /* OldFriendDetailViewController.m */,
+				2D2A06D01DE73FA400AC0834 /* OldFriendViewController.h */,
+				2D2A06D11DE73FA400AC0834 /* OldFriendViewController.m */,
+				2D082DE01DE894E5003EF47F /* OldFriendBuyViewController.h */,
+				2D082DE11DE894E5003EF47F /* OldFriendBuyViewController.m */,
+				2D082DE21DE894E5003EF47F /* OldFriendBuyViewController.xib */,
 			);
 			path = "老友圈";
 			sourceTree = "<group>";
@@ -939,6 +988,7 @@
 		2DD45AC81DCF17F0001B6706 /* SourceImages */ = {
 			isa = PBXGroup;
 			children = (
+				2D082DEC1DE8A234003EF47F /* 信息表.png */,
 				2DD4FD351DD4BF410099907E /* 右箭头.png */,
 				8C14BED61DD0C6C30060B75E /* 老吾老 */,
 				8C345C851DD0873B00AC4496 /* 老友圈 */,
@@ -1609,7 +1659,8 @@
 				8C6F3BE21DD1962E006338C4 /* 健身器材1.png in Resources */,
 				8C14BEF41DD0C89E0060B75E /* OtoFooterView.xib in Resources */,
 				2DD45B1F1DCF2EE3001B6706 /* 日常用品.png in Resources */,
-				8C6F3BF11DD1967F006338C4 /* 保养服务详情.png in Resources */,
+				2D2A06DE1DE74C1300AC0834 /* 蜂蜜.png in Resources */,
+				2D2A06DB1DE74C1300AC0834 /* 土鸡.png in Resources */,
 				8CC0450E1DD5A1C3002AB938 /* 刘楚恬2.jpg in Resources */,
 				2DCF19F31DCF142400A4F243 /* LaunchScreen.storyboard in Resources */,
 				2D3556831DE484FD009A28FC /* 双林2.jpg in Resources */,
@@ -1619,6 +1670,7 @@
 				8CC045251DD5C90A002AB938 /* MorePlanHeaderView.xib in Resources */,
 				2D3556661DE47FDB009A28FC /* 陪伴服务.jpg in Resources */,
 				8C14BEEF1DD0C6CD0060B75E /* rbjr_failed_icon.png in Resources */,
+				2D082DE41DE894E5003EF47F /* OldFriendBuyViewController.xib in Resources */,
 				8C6F3BCC1DD195B3006338C4 /* 门店理疗详情.png in Resources */,
 				2DD45B3A1DCF365B001B6706 /* 代理购物.png in Resources */,
 				8C6F3BE11DD1962E006338C4 /* 家电厨具详情.png in Resources */,
@@ -1645,6 +1697,7 @@
 				8C14BE571DD0BAD20060B75E /* 返回按钮@2x.png in Resources */,
 				2D9F3A171DD6075D00CB1811 /* 医疗健康new.png in Resources */,
 				2D8A8E431DD0B2DC008D32AA /* 个人中心详情.png in Resources */,
+				2D2A06DA1DE74C1300AC0834 /* 农村山货.png in Resources */,
 				8C345C8D1DD0874800AC4496 /* had_comment_icon@2x.png in Resources */,
 				2D35568B1DE484FD009A28FC /* 革新1.jpg in Resources */,
 				8C14BE641DD0C0C80060B75E /* 直播详情底部.png in Resources */,
@@ -1678,17 +1731,20 @@
 				8C14BF0F1DD0CE170060B75E /* bcborrowbtn@2x.png in Resources */,
 				8C6F3BC81DD1958A006338C4 /* 预约清洁服务详情.png in Resources */,
 				8C6F3BC41DD18F22006338C4 /* 广告1.png in Resources */,
+				2D082DED1DE8A234003EF47F /* 信息表.png in Resources */,
 				2D3556681DE47FDB009A28FC /* 维修服务.jpg in Resources */,
 				8C345C8E1DD0874800AC4496 /* had_praise_icon_nor.png in Resources */,
 				8C6F3BD11DD195D2006338C4 /* 代理购物详情.png in Resources */,
+				2D2A06DF1DE74C1300AC0834 /* 预定.png in Resources */,
 				8C14BEEE1DD0C6CD0060B75E /* rb_tothink_btn@2x.png in Resources */,
 				8C6F3BC51DD18F22006338C4 /* 广告2.png in Resources */,
 				8C345C8F1DD0874800AC4496 /* had_praise_icon_nor@2x.png in Resources */,
 				8C1C24F21DD575190011F918 /* OldToOldHeaderView.xib in Resources */,
 				2D9F3A1A1DD6075D00CB1811 /* 跑腿服务new.png in Resources */,
+				2D082DEB1DE8A0A2003EF47F /* OlderDetailInfoViewController.xib in Resources */,
 				2DD45B1D1DCF2EE3001B6706 /* 保健器材.png in Resources */,
-				8C6F3BF31DD1967F006338C4 /* 清洁服务详情.png in Resources */,
 				8C14BE4D1DD0B7BF0060B75E /* OfcldHeaderView.xib in Resources */,
+				2D2A06DD1DE74C1300AC0834 /* 有机蔬菜.png in Resources */,
 				8C14BEE71DD0C6CD0060B75E /* rb_clock_icon.png in Resources */,
 				2DCF19EE1DCF142400A4F243 /* Main.storyboard in Resources */,
 				8C6F3BE91DD1962E006338C4 /* 健身器材4详情.png in Resources */,
@@ -1696,15 +1752,18 @@
 				8C14BEFF1DD0CAE10060B75E /* OldToOldPlanViewCell.xib in Resources */,
 				8C14BE531DD0B9BE0060B75E /* 老友圈直播1.gif in Resources */,
 				2DD45AD11DCF1814001B6706 /* 活动@3x.png in Resources */,
+				2D19AF551DEA93F200AF9FE4 /* 清洁服务详情.PNG in Resources */,
 				8C345C911DD0874800AC4496 /* had_praise_icon_sel@2x.png in Resources */,
 				2DB4C51B1DCF84EE00DFEF18 /* 头像.jpg in Resources */,
 				8C6F3BE51DD1962E006338C4 /* 健身器材2详情.png in Resources */,
+				2D2A06DC1DE74C1300AC0834 /* 土鸡蛋.png in Resources */,
 				8CC0450F1DD5A1C3002AB938 /* 刘楚恬3.jpg in Resources */,
 				2DD45B1E1DCF2EE3001B6706 /* 家电厨具.png in Resources */,
 				8C345C8C1DD0874800AC4496 /* had_comment_icon.png in Resources */,
 				2D3556851DE484FD009A28FC /* 宴兴1.jpg in Resources */,
 				8C345C421DD0817600AC4496 /* MJRefresh.bundle in Resources */,
 				8C14BE561DD0BAD20060B75E /* 返回按钮.png in Resources */,
+				2D19AF531DEA922800AF9FE4 /* 保养服务详情.png in Resources */,
 				8C14BEF21DD0C6CD0060B75E /* rbjr_success_icon@2x.png in Resources */,
 				8C14BE5D1DD0BE080060B75E /* 直播详情.png in Resources */,
 				2D3556861DE484FD009A28FC /* 宴兴2.jpg in Resources */,
@@ -1770,6 +1829,7 @@
 				2D3D1DB61DCF56B400747861 /* CleanDetailViewController.m in Sources */,
 				8C345C7B1DD0845500AC4496 /* UIView+WebCacheOperation.m in Sources */,
 				8C345C721DD0845500AC4496 /* SDWebImageDownloaderOperation.m in Sources */,
+				2D082DEA1DE8A0A2003EF47F /* OlderDetailInfoViewController.m in Sources */,
 				8C345C811DD0855700AC4496 /* NSDateFormatter+Category.m in Sources */,
 				2DD45AF51DCF1949001B6706 /* View+MASAdditions.m in Sources */,
 				8C345C711DD0845500AC4496 /* SDWebImageDownloader.m in Sources */,
@@ -1802,6 +1862,7 @@
 				8C14BE4B1DD0B7900060B75E /* OfcldHeaderView.m in Sources */,
 				8C345CA51DD0883900AC4496 /* DLLRUCache.m in Sources */,
 				8C345C391DD0817600AC4496 /* MJRefreshAutoGifFooter.m in Sources */,
+				2D082DE31DE894E5003EF47F /* OldFriendBuyViewController.m in Sources */,
 				8C14BF021DD0CD250060B75E /* OldToOldSectionView.m in Sources */,
 				8C345C461DD0817600AC4496 /* UIView+MJExtension.m in Sources */,
 				8C345C341DD0817600AC4496 /* MJRefreshAutoFooter.m in Sources */,
@@ -1818,6 +1879,7 @@
 				8C345C7E1DD0851B00AC4496 /* NSDate+Category.m in Sources */,
 				8C345C3B1DD0817600AC4496 /* MJRefreshAutoStateFooter.m in Sources */,
 				8C345C7A1DD0845500AC4496 /* UIImageView+WebCache.m in Sources */,
+				2D2A06D21DE73FA400AC0834 /* OldFriendViewController.m in Sources */,
 				2DD45B0F1DCF2771001B6706 /* NSArray+Category.m in Sources */,
 				2DD45AC41DCF15AB001B6706 /* OldFriendCicleViewController.m in Sources */,
 				8C345C761DD0845500AC4496 /* UIImage+GIF.m in Sources */,

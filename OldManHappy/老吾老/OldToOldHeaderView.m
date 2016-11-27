@@ -8,6 +8,7 @@
 
 #import "OldToOldHeaderView.h"
 #import "MorePlanViewController.h"
+#import "OlderDetailInfoViewController.h"
 
 @interface OldToOldHeaderView ()
 
@@ -16,6 +17,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *detailBtn;
 @property (strong, nonatomic) IBOutlet UIButton *moreBtnPressed;
 - (IBAction)moreBtnPressed:(UIButton *)sender;
+- (IBAction)detailButtonPressed:(id)sender;
 
 @end
 
@@ -49,5 +51,11 @@
 - (IBAction)moreBtnPressed:(UIButton *)sender {
     MorePlanViewController *morePlanVC = [[MorePlanViewController alloc]init];
     [self.viewController.navigationController pushViewController:morePlanVC animated:YES];
+}
+
+- (IBAction)detailButtonPressed:(id)sender {
+    
+    OlderDetailInfoViewController   * detailInfo = [[OlderDetailInfoViewController alloc] init];
+    [self.viewController.navigationController pushViewController:detailInfo animated:YES];
 }
 @end

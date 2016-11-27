@@ -13,6 +13,8 @@
 #import "OldFriendCicleViewController.h"
 #import "MySelfViewController.h"
 
+#import "OldFriendViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -56,19 +58,19 @@
     checkNav.navigationBar.shadowImage = [[UIImage alloc] init];
     checkNav.tabBarItem.title= @"老吾老";
     checkNav.tabBarItem.image = [UIImage imageNamed:@"商家"];
+    checkNav.navigationBar.titleTextAttributes = dict;
     
-    
-    OldFriendCicleViewController * infoVC = [[OldFriendCicleViewController alloc] init];
+    OldFriendViewController * infoVC = [[OldFriendViewController alloc] init];
     UINavigationController * infoNav = [[UINavigationController alloc] initWithRootViewController:infoVC];
-    infoNav.navigationBar.tintColor = NAVTITLE_TINTCOLOR;
-    infoNav.navigationBar.barTintColor = ITEM_SELECT_COLOR;
+    infoNav.navigationBar.tintColor = [UIColor whiteColor];
+    infoNav.navigationBar.barTintColor = THEMECOLOR_TINT;
     infoNav.navigationBar.translucent = NO;
-    [infoNav.navigationBar setBackgroundImage:[[UIImage alloc]init]
-                                forBarMetrics:UIBarMetricsDefault];
-    infoNav.navigationBar.shadowImage = [[UIImage alloc] init];
+//    [infoNav.navigationBar setBackgroundImage:[[UIImage alloc]init]
+//                                forBarMetrics:UIBarMetricsDefault];
+//    infoNav.navigationBar.shadowImage = [[UIImage alloc] init];
     infoNav.tabBarItem.title = @"购健康";
     infoNav.tabBarItem.image = [UIImage imageNamed:@"活动"];
-    
+    infoNav.navigationBar.titleTextAttributes = dict;        //改变title的颜色
     
     MySelfViewController  * personalVC = [[MySelfViewController alloc] init];
     UINavigationController  * personalNav = [[UINavigationController alloc] initWithRootViewController:personalVC];

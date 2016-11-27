@@ -30,7 +30,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="黑长直.jpg" id="jk0-st-eU1">
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="李良辰.jpg" id="jk0-st-eU1">
                                     <rect key="frame" x="33.5" y="36.5" width="47" height="41.5"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 </imageView>
@@ -40,6 +40,9 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                     <state key="normal" title="  详细 〉"/>
+                                    <connections>
+                                        <action selector="detailButtonPressed:" destination="wah-wA-3lG" eventType="touchUpInside" id="mbF-fa-pDr"/>
+                                    </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="非常健康" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A29-4z-onx">
                                     <rect key="frame" x="5" y="85.5" width="95" height="18.5"/>
@@ -504,7 +507,7 @@
                 <outlet property="detailBtn" destination="OoN-k6-rj6" id="Jzu-KY-dqo"/>
                 <outlet property="headImgView" destination="jk0-st-eU1" id="QFo-WS-4ro"/>
             </connections>
-            <point key="canvasLocation" x="-43.5" y="210"/>
+            <point key="canvasLocation" x="-189" y="179"/>
         </view>
     </objects>
     <resources>
@@ -515,10 +518,10 @@
         <image name="宴兴2.jpg" width="540" height="352"/>
         <image name="小鸡炖蘑菇.jpg" width="700" height="580"/>
         <image name="惠丰2.jpg" width="1024" height="615"/>
+        <image name="李良辰.jpg" width="600" height="845"/>
         <image name="革新2.jpg" width="1000" height="666"/>
         <image name="革新3.jpg" width="1000" height="825"/>
         <image name="鱼虾小妾.jpg" width="700" height="624"/>
-        <image name="黑长直.jpg" width="700" height="700"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
